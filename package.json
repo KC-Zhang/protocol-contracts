@@ -34,6 +34,7 @@
         "@rarible/estimate-middleware": "0.5.6",
         "@rarible/trezor-provider": "0.0.11",
         "@truffle/hdwallet-provider": "1.4.0",
+        "@truffle/contract": "4.3.26",
         "lerna": "3.22.1",
         "truffle-assertions": "0.9.2"
     }
