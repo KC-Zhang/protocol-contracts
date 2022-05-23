@@ -113,7 +113,7 @@
   "sourceMap": "121:116:49:-:0;;;177:58;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;177:58:49;;884:17:19;904:12;:10;:12::i;:::-;926:6;:18;;-1:-1:-1;;;;;;926:18:19;-1:-1:-1;;;;;926:18:19;;;;;;;959:43;;926:18;;-1:-1:-1;926:18:19;959:43;;926:6;;959:43;-1:-1:-1;917:35:24;936:15;917:18;:35::i;:::-;863:96;177:58:49;121:116;;598:104:26;685:10;598:104;:::o;1750:226:24:-;1831:37;1850:17;1831:18;;;;;:37;;:::i;:::-;1823:101;;;;-1:-1:-1;;;1823:101:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1934:15;:35;;-1:-1:-1;;;;;;1934:35:24;-1:-1:-1;;;;;1934:35:24;;;;;;;;;;1750:226::o;726:413:25:-;1086:20;1124:8;;;726:413::o;121:116:49:-;;;;;;;",
   "deployedSourceMap": "121:116:49:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1408:167:24;;;;;;;;;;;;;;;;-1:-1:-1;1408:167:24;-1:-1:-1;;;;;1408:167:24;;:::i;:::-;;1037:112;;;:::i;:::-;;;;-1:-1:-1;;;;;1037:112:24;;;;;;;;;;;;;;1717:145:19;;;:::i;1085:85::-;;;:::i;2011:240::-;;;;;;;;;;;;;;;;-1:-1:-1;2011:240:19;-1:-1:-1;;;;;2011:240:19;;:::i;1408:167:24:-;1308:12:19;:10;:12::i;:::-;-1:-1:-1;;;;;1297:23:19;:7;:5;:7::i;:::-;-1:-1:-1;;;;;1297:23:19;;1289:68;;;;;-1:-1:-1;;;1289:68:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1489:37:24::1;1508:17;1489:18;:37::i;:::-;1541:27;::::0;-1:-1:-1;;;;;1541:27:24;::::1;::::0;::::1;::::0;;;::::1;1408:167:::0;:::o;1037:112::-;1127:15;;-1:-1:-1;;;;;1127:15:24;1037:112;:::o;1717:145:19:-;1308:12;:10;:12::i;:::-;-1:-1:-1;;;;;1297:23:19;:7;:5;:7::i;:::-;-1:-1:-1;;;;;1297:23:19;;1289:68;;;;;-1:-1:-1;;;1289:68:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1823:1:::1;1807:6:::0;;1786:40:::1;::::0;-1:-1:-1;;;;;1807:6:19;;::::1;::::0;1786:40:::1;::::0;1823:1;;1786:40:::1;1853:1;1836:19:::0;;-1:-1:-1;;;;;;1836:19:19::1;::::0;;1717:145::o;1085:85::-;1131:7;1157:6;-1:-1:-1;;;;;1157:6:19;1085:85;:::o;2011:240::-;1308:12;:10;:12::i;:::-;-1:-1:-1;;;;;1297:23:19;:7;:5;:7::i;:::-;-1:-1:-1;;;;;1297:23:19;;1289:68;;;;;-1:-1:-1;;;1289:68:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;2099:22:19;::::1;2091:73;;;;-1:-1:-1::0;;;2091:73:19::1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2200:6;::::0;;2179:38:::1;::::0;-1:-1:-1;;;;;2179:38:19;;::::1;::::0;2200:6;::::1;::::0;2179:38:::1;::::0;::::1;2227:6;:17:::0;;-1:-1:-1;;;;;;2227:17:19::1;-1:-1:-1::0;;;;;2227:17:19;;;::::1;::::0;;;::::1;::::0;;2011:240::o;726:413:25:-;1086:20;1124:8;;;726:413::o;598:104:26:-;685:10;598:104;:::o;1750:226:24:-;1831:37;1850:17;1831:18;:37::i;:::-;1823:101;;;;-1:-1:-1;;;1823:101:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1934:15;:35;;-1:-1:-1;;;;;;1934:35:24;-1:-1:-1;;;;;1934:35:24;;;;;;;;;;1750:226::o",
   "source": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.7.0;\n\nimport \"@openzeppelin/contracts/proxy/UpgradeableBeacon.sol\";\n\ncontract ERC721RaribleBeacon is UpgradeableBeacon {\n    constructor(address impl) UpgradeableBeacon(impl) {\n\n    }\n}\n",
-  "sourcePath": "/Users/ds/Documents/rarible/test-contracts/protocol-contracts/tokens/contracts/beacons/ERC721RaribleBeacon.sol",
+  "sourcePath": "/home/kaicheng/Projects/protocol-contracts/tokens/contracts/beacons/ERC721RaribleBeacon.sol",
   "ast": {
     "absolutePath": "project:/contracts/beacons/ERC721RaribleBeacon.sol",
     "exportedSymbols": {
@@ -124,7 +124,7 @@
         3691
       ],
       "ERC721RaribleBeacon": [
-        6214
+        6217
       ],
       "IBeacon": [
         3245
@@ -136,12 +136,12 @@
         3372
       ]
     },
-    "id": 6215,
+    "id": 6218,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 6201,
+        "id": 6204,
         "literals": [
           "solidity",
           "^",
@@ -154,9 +154,9 @@
       {
         "absolutePath": "@openzeppelin/contracts/proxy/UpgradeableBeacon.sol",
         "file": "@openzeppelin/contracts/proxy/UpgradeableBeacon.sol",
-        "id": 6202,
+        "id": 6205,
         "nodeType": "ImportDirective",
-        "scope": 6215,
+        "scope": 6218,
         "sourceUnit": 3373,
         "src": "58:61:49",
         "symbolAliases": [],
@@ -167,7 +167,7 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 6203,
+              "id": 6206,
               "name": "UpgradeableBeacon",
               "nodeType": "UserDefinedTypeName",
               "referencedDeclaration": 3372,
@@ -177,7 +177,7 @@
                 "typeString": "contract UpgradeableBeacon"
               }
             },
-            "id": 6204,
+            "id": 6207,
             "nodeType": "InheritanceSpecifier",
             "src": "153:17:49"
           }
@@ -190,9 +190,9 @@
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 6214,
+        "id": 6217,
         "linearizedBaseContracts": [
-          6214,
+          6217,
           3372,
           2761,
           3691,
@@ -203,23 +203,23 @@
         "nodes": [
           {
             "body": {
-              "id": 6212,
+              "id": 6215,
               "nodeType": "Block",
               "src": "227:8:49",
               "statements": []
             },
-            "id": 6213,
+            "id": 6216,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
               {
                 "arguments": [
                   {
-                    "id": 6209,
+                    "id": 6212,
                     "name": "impl",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 6206,
+                    "referencedDeclaration": 6209,
                     "src": "221:4:49",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -227,9 +227,9 @@
                     }
                   }
                 ],
-                "id": 6210,
+                "id": 6213,
                 "modifierName": {
-                  "id": 6208,
+                  "id": 6211,
                   "name": "UpgradeableBeacon",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
@@ -247,16 +247,16 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6207,
+              "id": 6210,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6206,
+                  "id": 6209,
                   "mutability": "mutable",
                   "name": "impl",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6213,
+                  "scope": 6216,
                   "src": "189:12:49",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -265,7 +265,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 6205,
+                    "id": 6208,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "189:7:49",
@@ -281,19 +281,19 @@
               "src": "188:14:49"
             },
             "returnParameters": {
-              "id": 6211,
+              "id": 6214,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "227:0:49"
             },
-            "scope": 6214,
+            "scope": 6217,
             "src": "177:58:49",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 6215,
+        "scope": 6218,
         "src": "121:116:49"
       }
     ],
@@ -310,7 +310,7 @@
           3691
         ],
         "ERC721RaribleBeacon": [
-          6214
+          6217
         ],
         "IBeacon": [
           3245
@@ -334,7 +334,7 @@
             ".0"
           ]
         },
-        "id": 6201,
+        "id": 6204,
         "name": "PragmaDirective",
         "src": "33:23:49"
       },
@@ -343,13 +343,13 @@
           "SourceUnit": 3373,
           "absolutePath": "@openzeppelin/contracts/proxy/UpgradeableBeacon.sol",
           "file": "@openzeppelin/contracts/proxy/UpgradeableBeacon.sol",
-          "scope": 6215,
+          "scope": 6218,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 6202,
+        "id": 6205,
         "name": "ImportDirective",
         "src": "58:61:49"
       },
@@ -365,14 +365,14 @@
           "contractKind": "contract",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            6214,
+            6217,
             3372,
             2761,
             3691,
             3245
           ],
           "name": "ERC721RaribleBeacon",
-          "scope": 6215
+          "scope": 6218
         },
         "children": [
           {
@@ -384,12 +384,12 @@
                   "referencedDeclaration": 3372,
                   "type": "contract UpgradeableBeacon"
                 },
-                "id": 6203,
+                "id": 6206,
                 "name": "UserDefinedTypeName",
                 "src": "153:17:49"
               }
             ],
-            "id": 6204,
+            "id": 6207,
             "name": "InheritanceSpecifier",
             "src": "153:17:49"
           },
@@ -399,7 +399,7 @@
               "isConstructor": true,
               "kind": "constructor",
               "name": "",
-              "scope": 6214,
+              "scope": 6217,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "public"
@@ -412,7 +412,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "impl",
-                      "scope": 6213,
+                      "scope": 6216,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -425,17 +425,17 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 6205,
+                        "id": 6208,
                         "name": "ElementaryTypeName",
                         "src": "189:7:49"
                       }
                     ],
-                    "id": 6206,
+                    "id": 6209,
                     "name": "VariableDeclaration",
                     "src": "189:12:49"
                   }
                 ],
-                "id": 6207,
+                "id": 6210,
                 "name": "ParameterList",
                 "src": "188:14:49"
               },
@@ -446,7 +446,7 @@
                   ]
                 },
                 "children": [],
-                "id": 6211,
+                "id": 6214,
                 "name": "ParameterList",
                 "src": "227:0:49"
               },
@@ -461,7 +461,7 @@
                       "type": "type(contract UpgradeableBeacon)",
                       "value": "UpgradeableBeacon"
                     },
-                    "id": 6208,
+                    "id": 6211,
                     "name": "Identifier",
                     "src": "203:17:49"
                   },
@@ -470,16 +470,16 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 6206,
+                      "referencedDeclaration": 6209,
                       "type": "address",
                       "value": "impl"
                     },
-                    "id": 6209,
+                    "id": 6212,
                     "name": "Identifier",
                     "src": "221:4:49"
                   }
                 ],
-                "id": 6210,
+                "id": 6213,
                 "name": "ModifierInvocation",
                 "src": "203:23:49"
               },
@@ -490,22 +490,22 @@
                   ]
                 },
                 "children": [],
-                "id": 6212,
+                "id": 6215,
                 "name": "Block",
                 "src": "227:8:49"
               }
             ],
-            "id": 6213,
+            "id": 6216,
             "name": "FunctionDefinition",
             "src": "177:58:49"
           }
         ],
-        "id": 6214,
+        "id": 6217,
         "name": "ContractDefinition",
         "src": "121:116:49"
       }
     ],
-    "id": 6215,
+    "id": 6218,
     "name": "SourceUnit",
     "src": "33:205:49"
   },
@@ -514,8 +514,8 @@
     "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2022-02-03T18:43:58.030Z",
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T00:40:51.514Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

@@ -16,7 +16,7 @@
     },
     {
       "inputs": [],
-      "name": "CRYPTO_PUNK",
+      "name": "CRYPTO_PUNKS",
       "outputs": [
         {
           "internalType": "bytes4",
@@ -80,15 +80,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"COLLECTION\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"CRYPTO_PUNK\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ERC1155_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ERC20_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ERC721_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ETH_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"@rarible/lib-asset/contracts/LibAsset.sol\":\"LibAsset\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@rarible/lib-asset/contracts/LibAsset.sol\":{\"keccak256\":\"0xab031424268ceeee7144ee1b080c9fc682cbb2250835c17f8e52d964452e2945\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91803aec41204da6b7cf95b0df53c1514b84d6af15c89bcee912c92aa9901b92\",\"dweb:/ipfs/QmXwQ8CHPt6Jh6S5dBB5MATRZFZXmvN3MiYTjrBmR8Tho2\"]}},\"version\":1}",
-  "bytecode": "0x6101cc610026600b82828239805160001a60731461001957fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361061006c5760003560e01c8063405bf27514610071578063697b2365146100965780636cd2c30a1461009e578063b45fb186146100a6578063b4797da2146100ae578063c214be59146100b6575b600080fd5b6100796100be565b604080516001600160e01b03199092168252519081900360200190f35b6100796100e2565b610079610106565b61007961012a565b61007961014e565b610079610172565b7f973bb64086f173ec8099b7ed3d43da984f4a332e4417a08bc6a286e6402b058681565b7ff63c282591b950c64511498574d1cdfa76078b63dbcad6d06139d12d140b61cb81565b7f8ae85d849167ff996c04040c44924fd364217285e4cad818292c7ac37c0a345b81565b7f0c1f0bf7326e45ad93fde5fb4e36567e0cea0fec84e324cb896aa8c8d1490eca81565b7faaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff481565b7f73ad2146b3d3a286642c794379d750360a2d53a3459a11b3e5d6cc900f55f44a8156fea26469706673582212201a8a3cb4665673f6dd921914afdcac340279508fc30f5e5015d57b5301096d4864736f6c63430007060033",
-  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361061006c5760003560e01c8063405bf27514610071578063697b2365146100965780636cd2c30a1461009e578063b45fb186146100a6578063b4797da2146100ae578063c214be59146100b6575b600080fd5b6100796100be565b604080516001600160e01b03199092168252519081900360200190f35b6100796100e2565b610079610106565b61007961012a565b61007961014e565b610079610172565b7f973bb64086f173ec8099b7ed3d43da984f4a332e4417a08bc6a286e6402b058681565b7ff63c282591b950c64511498574d1cdfa76078b63dbcad6d06139d12d140b61cb81565b7f8ae85d849167ff996c04040c44924fd364217285e4cad818292c7ac37c0a345b81565b7f0c1f0bf7326e45ad93fde5fb4e36567e0cea0fec84e324cb896aa8c8d1490eca81565b7faaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff481565b7f73ad2146b3d3a286642c794379d750360a2d53a3459a11b3e5d6cc900f55f44a8156fea26469706673582212201a8a3cb4665673f6dd921914afdcac340279508fc30f5e5015d57b5301096d4864736f6c63430007060033",
+  "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"COLLECTION\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"CRYPTO_PUNKS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ERC1155_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ERC20_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ERC721_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ETH_ASSET_CLASS\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"@rarible/lib-asset/contracts/LibAsset.sol\":\"LibAsset\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@rarible/lib-asset/contracts/LibAsset.sol\":{\"keccak256\":\"0x5d63bba4747a12a83c5628dba94bf56714b4dcf94f742ff28863034831061c8a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9826768c7f5c5423d9bbf49be50bd21ed2db5374ee47648150e50aa10e3c0151\",\"dweb:/ipfs/Qmex4xCv4MFRfCxMNZzzsKXYAFxbYWQRFsbaHiJfDTozYG\"]}},\"version\":1}",
+  "bytecode": "0x6101cc610026600b82828239805160001a60731461001957fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361061006c5760003560e01c80631d32813614610071578063405bf27514610096578063697b23651461009e5780636cd2c30a146100a6578063b4797da2146100ae578063c214be59146100b6575b600080fd5b6100796100be565b604080516001600160e01b03199092168252519081900360200190f35b6100796100e2565b610079610106565b61007961012a565b61007961014e565b610079610172565b7f3e6b89d41ae6cce5def8a4064ada8dba77d057c7a0113741d26b5e4eccdd2a7e81565b7f973bb64086f173ec8099b7ed3d43da984f4a332e4417a08bc6a286e6402b058681565b7ff63c282591b950c64511498574d1cdfa76078b63dbcad6d06139d12d140b61cb81565b7f8ae85d849167ff996c04040c44924fd364217285e4cad818292c7ac37c0a345b81565b7faaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff481565b7f73ad2146b3d3a286642c794379d750360a2d53a3459a11b3e5d6cc900f55f44a8156fea264697066735822122064482066b6fd9fc0fc63a6a39eb428bc530443fffbb793101b73edd96817559d64736f6c63430007060033",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361061006c5760003560e01c80631d32813614610071578063405bf27514610096578063697b23651461009e5780636cd2c30a146100a6578063b4797da2146100ae578063c214be59146100b6575b600080fd5b6100796100be565b604080516001600160e01b03199092168252519081900360200190f35b6100796100e2565b610079610106565b61007961012a565b61007961014e565b610079610172565b7f3e6b89d41ae6cce5def8a4064ada8dba77d057c7a0113741d26b5e4eccdd2a7e81565b7f973bb64086f173ec8099b7ed3d43da984f4a332e4417a08bc6a286e6402b058681565b7ff63c282591b950c64511498574d1cdfa76078b63dbcad6d06139d12d140b61cb81565b7f8ae85d849167ff996c04040c44924fd364217285e4cad818292c7ac37c0a345b81565b7faaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff481565b7f73ad2146b3d3a286642c794379d750360a2d53a3459a11b3e5d6cc900f55f44a8156fea264697066735822122064482066b6fd9fc0fc63a6a39eb428bc530443fffbb793101b73edd96817559d64736f6c63430007060033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
-  "sourceMap": "57:1370:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "57:1370:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;303:73;;;:::i;:::-;;;;-1:-1:-1;;;;;;303:73:18;;;;;;;;;;;;;;382:67;;;:::i;151:69::-;;;:::i;455:::-;;;:::i;80:65::-;;;:::i;226:71::-;;;:::i;303:73::-;355:20;303:73;:::o;382:67::-;425:23;382:67;:::o;151:69::-;201:18;151:69;:::o;455:::-;499:24;455:69;:::o;80:65::-;128:16;80:65;:::o;226:71::-;277:19;226:71;:::o",
-  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity 0.7.6;\n\nlibrary LibAsset {\n    bytes4 constant public ETH_ASSET_CLASS = bytes4(keccak256(\"ETH\"));\n    bytes4 constant public ERC20_ASSET_CLASS = bytes4(keccak256(\"ERC20\"));\n    bytes4 constant public ERC721_ASSET_CLASS = bytes4(keccak256(\"ERC721\"));\n    bytes4 constant public ERC1155_ASSET_CLASS = bytes4(keccak256(\"ERC1155\"));\n    bytes4 constant public COLLECTION = bytes4(keccak256(\"COLLECTION\"));\n    bytes4 constant public CRYPTO_PUNK = bytes4(keccak256(\"CRYPTO_PUNK\"));\n\n    bytes32 constant ASSET_TYPE_TYPEHASH = keccak256(\n        \"AssetType(bytes4 assetClass,bytes data)\"\n    );\n\n    bytes32 constant ASSET_TYPEHASH = keccak256(\n        \"Asset(AssetType assetType,uint256 value)AssetType(bytes4 assetClass,bytes data)\"\n    );\n\n    struct AssetType {\n        bytes4 assetClass;\n        bytes data;\n    }\n\n    struct Asset {\n        AssetType assetType;\n        uint value;\n    }\n\n    function hash(AssetType memory assetType) internal pure returns (bytes32) {\n        return keccak256(abi.encode(\n                ASSET_TYPE_TYPEHASH,\n                assetType.assetClass,\n                keccak256(assetType.data)\n            ));\n    }\n\n    function hash(Asset memory asset) internal pure returns (bytes32) {\n        return keccak256(abi.encode(\n                ASSET_TYPEHASH,\n                hash(asset.assetType),\n                asset.value\n            ));\n    }\n\n}\n",
+  "sourceMap": "57:1372:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:1372:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;455:71;;;:::i;:::-;;;;-1:-1:-1;;;;;;455:71:18;;;;;;;;;;;;;;303:73;;;:::i;382:67::-;;;:::i;151:69::-;;;:::i;80:65::-;;;:::i;226:71::-;;;:::i;455:::-;500:25;455:71;:::o;303:73::-;355:20;303:73;:::o;382:67::-;425:23;382:67;:::o;151:69::-;201:18;151:69;:::o;80:65::-;128:16;80:65;:::o;226:71::-;277:19;226:71;:::o",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity 0.7.6;\n\nlibrary LibAsset {\n    bytes4 constant public ETH_ASSET_CLASS = bytes4(keccak256(\"ETH\"));\n    bytes4 constant public ERC20_ASSET_CLASS = bytes4(keccak256(\"ERC20\"));\n    bytes4 constant public ERC721_ASSET_CLASS = bytes4(keccak256(\"ERC721\"));\n    bytes4 constant public ERC1155_ASSET_CLASS = bytes4(keccak256(\"ERC1155\"));\n    bytes4 constant public COLLECTION = bytes4(keccak256(\"COLLECTION\"));\n    bytes4 constant public CRYPTO_PUNKS = bytes4(keccak256(\"CRYPTO_PUNKS\"));\n\n    bytes32 constant ASSET_TYPE_TYPEHASH = keccak256(\n        \"AssetType(bytes4 assetClass,bytes data)\"\n    );\n\n    bytes32 constant ASSET_TYPEHASH = keccak256(\n        \"Asset(AssetType assetType,uint256 value)AssetType(bytes4 assetClass,bytes data)\"\n    );\n\n    struct AssetType {\n        bytes4 assetClass;\n        bytes data;\n    }\n\n    struct Asset {\n        AssetType assetType;\n        uint value;\n    }\n\n    function hash(AssetType memory assetType) internal pure returns (bytes32) {\n        return keccak256(abi.encode(\n                ASSET_TYPE_TYPEHASH,\n                assetType.assetClass,\n                keccak256(assetType.data)\n            ));\n    }\n\n    function hash(Asset memory asset) internal pure returns (bytes32) {\n        return keccak256(abi.encode(\n                ASSET_TYPEHASH,\n                hash(asset.assetType),\n                asset.value\n            ));\n    }\n\n}\n",
   "sourcePath": "@rarible/lib-asset/contracts/LibAsset.sol",
   "ast": {
     "absolutePath": "@rarible/lib-asset/contracts/LibAsset.sol",
@@ -741,13 +741,13 @@
           },
           {
             "constant": true,
-            "functionSelector": "b45fb186",
+            "functionSelector": "1d328136",
             "id": 2182,
             "mutability": "constant",
-            "name": "CRYPTO_PUNK",
+            "name": "CRYPTO_PUNKS",
             "nodeType": "VariableDeclaration",
             "scope": 2245,
-            "src": "455:69:18",
+            "src": "455:71:18",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -769,7 +769,7 @@
                 {
                   "arguments": [
                     {
-                      "hexValue": "43525950544f5f50554e4b",
+                      "hexValue": "43525950544f5f50554e4b53",
                       "id": 2179,
                       "isConstant": false,
                       "isLValue": false,
@@ -777,19 +777,19 @@
                       "kind": "string",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "509:13:18",
+                      "src": "510:14:18",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_stringliteral_0c1f0bf7326e45ad93fde5fb4e36567e0cea0fec84e324cb896aa8c8d1490eca",
-                        "typeString": "literal_string \"CRYPTO_PUNK\""
+                        "typeIdentifier": "t_stringliteral_3e6b89d41ae6cce5def8a4064ada8dba77d057c7a0113741d26b5e4eccdd2a7e",
+                        "typeString": "literal_string \"CRYPTO_PUNKS\""
                       },
-                      "value": "CRYPTO_PUNK"
+                      "value": "CRYPTO_PUNKS"
                     }
                   ],
                   "expression": {
                     "argumentTypes": [
                       {
-                        "typeIdentifier": "t_stringliteral_0c1f0bf7326e45ad93fde5fb4e36567e0cea0fec84e324cb896aa8c8d1490eca",
-                        "typeString": "literal_string \"CRYPTO_PUNK\""
+                        "typeIdentifier": "t_stringliteral_3e6b89d41ae6cce5def8a4064ada8dba77d057c7a0113741d26b5e4eccdd2a7e",
+                        "typeString": "literal_string \"CRYPTO_PUNKS\""
                       }
                     ],
                     "id": 2178,
@@ -797,7 +797,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 4294967288,
-                    "src": "499:9:18",
+                    "src": "500:9:18",
                     "typeDescriptions": {
                       "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
                       "typeString": "function (bytes memory) pure returns (bytes32)"
@@ -811,7 +811,7 @@
                   "lValueRequested": false,
                   "names": [],
                   "nodeType": "FunctionCall",
-                  "src": "499:24:18",
+                  "src": "500:25:18",
                   "tryCall": false,
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
@@ -832,7 +832,7 @@
                 "isPure": true,
                 "lValueRequested": false,
                 "nodeType": "ElementaryTypeNameExpression",
-                "src": "492:6:18",
+                "src": "493:6:18",
                 "typeDescriptions": {
                   "typeIdentifier": "t_type$_t_bytes4_$",
                   "typeString": "type(bytes4)"
@@ -841,7 +841,7 @@
                   "id": 2176,
                   "name": "bytes4",
                   "nodeType": "ElementaryTypeName",
-                  "src": "492:6:18",
+                  "src": "493:6:18",
                   "typeDescriptions": {}
                 }
               },
@@ -853,7 +853,7 @@
               "lValueRequested": false,
               "names": [],
               "nodeType": "FunctionCall",
-              "src": "492:32:18",
+              "src": "493:33:18",
               "tryCall": false,
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes4",
@@ -869,7 +869,7 @@
             "name": "ASSET_TYPE_TYPEHASH",
             "nodeType": "VariableDeclaration",
             "scope": 2245,
-            "src": "531:105:18",
+            "src": "533:105:18",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -880,7 +880,7 @@
               "id": 2183,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
-              "src": "531:7:18",
+              "src": "533:7:18",
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
                 "typeString": "bytes32"
@@ -897,7 +897,7 @@
                   "kind": "string",
                   "lValueRequested": false,
                   "nodeType": "Literal",
-                  "src": "589:41:18",
+                  "src": "591:41:18",
                   "typeDescriptions": {
                     "typeIdentifier": "t_stringliteral_452a0dc408cb0d27ffc3b3caff933a5208040a53a9dbecd8d89cad2c0d40e00c",
                     "typeString": "literal_string \"AssetType(bytes4 assetClass,bytes data)\""
@@ -917,7 +917,7 @@
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
                 "referencedDeclaration": 4294967288,
-                "src": "570:9:18",
+                "src": "572:9:18",
                 "typeDescriptions": {
                   "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
                   "typeString": "function (bytes memory) pure returns (bytes32)"
@@ -931,7 +931,7 @@
               "lValueRequested": false,
               "names": [],
               "nodeType": "FunctionCall",
-              "src": "570:66:18",
+              "src": "572:66:18",
               "tryCall": false,
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
@@ -947,7 +947,7 @@
             "name": "ASSET_TYPEHASH",
             "nodeType": "VariableDeclaration",
             "scope": 2245,
-            "src": "643:140:18",
+            "src": "645:140:18",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -958,7 +958,7 @@
               "id": 2188,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
-              "src": "643:7:18",
+              "src": "645:7:18",
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
                 "typeString": "bytes32"
@@ -975,7 +975,7 @@
                   "kind": "string",
                   "lValueRequested": false,
                   "nodeType": "Literal",
-                  "src": "696:81:18",
+                  "src": "698:81:18",
                   "typeDescriptions": {
                     "typeIdentifier": "t_stringliteral_db6f72e915676cfc289da13bc4ece054fd17b1df6d77ffc4a60510718c236b08",
                     "typeString": "literal_string \"Asset(AssetType assetType,uint256 value)AssetType(bytes4 assetClass,bytes data)\""
@@ -995,7 +995,7 @@
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
                 "referencedDeclaration": 4294967288,
-                "src": "677:9:18",
+                "src": "679:9:18",
                 "typeDescriptions": {
                   "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
                   "typeString": "function (bytes memory) pure returns (bytes32)"
@@ -1009,7 +1009,7 @@
               "lValueRequested": false,
               "names": [],
               "nodeType": "FunctionCall",
-              "src": "677:106:18",
+              "src": "679:106:18",
               "tryCall": false,
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes32",
@@ -1029,7 +1029,7 @@
                 "name": "assetClass",
                 "nodeType": "VariableDeclaration",
                 "scope": 2197,
-                "src": "817:17:18",
+                "src": "819:17:18",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1040,7 +1040,7 @@
                   "id": 2193,
                   "name": "bytes4",
                   "nodeType": "ElementaryTypeName",
-                  "src": "817:6:18",
+                  "src": "819:6:18",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes4",
                     "typeString": "bytes4"
@@ -1055,7 +1055,7 @@
                 "name": "data",
                 "nodeType": "VariableDeclaration",
                 "scope": 2197,
-                "src": "844:10:18",
+                "src": "846:10:18",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1066,7 +1066,7 @@
                   "id": 2195,
                   "name": "bytes",
                   "nodeType": "ElementaryTypeName",
-                  "src": "844:5:18",
+                  "src": "846:5:18",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes_storage_ptr",
                     "typeString": "bytes"
@@ -1078,7 +1078,7 @@
             "name": "AssetType",
             "nodeType": "StructDefinition",
             "scope": 2245,
-            "src": "790:71:18",
+            "src": "792:71:18",
             "visibility": "public"
           },
           {
@@ -1092,7 +1092,7 @@
                 "name": "assetType",
                 "nodeType": "VariableDeclaration",
                 "scope": 2202,
-                "src": "890:19:18",
+                "src": "892:19:18",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1104,7 +1104,7 @@
                   "name": "AssetType",
                   "nodeType": "UserDefinedTypeName",
                   "referencedDeclaration": 2197,
-                  "src": "890:9:18",
+                  "src": "892:9:18",
                   "typeDescriptions": {
                     "typeIdentifier": "t_struct$_AssetType_$2197_storage_ptr",
                     "typeString": "struct LibAsset.AssetType"
@@ -1119,7 +1119,7 @@
                 "name": "value",
                 "nodeType": "VariableDeclaration",
                 "scope": 2202,
-                "src": "919:10:18",
+                "src": "921:10:18",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1130,7 +1130,7 @@
                   "id": 2200,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "919:4:18",
+                  "src": "921:4:18",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1142,14 +1142,14 @@
             "name": "Asset",
             "nodeType": "StructDefinition",
             "scope": 2245,
-            "src": "867:69:18",
+            "src": "869:69:18",
             "visibility": "public"
           },
           {
             "body": {
               "id": 2222,
               "nodeType": "Block",
-              "src": "1016:177:18",
+              "src": "1018:177:18",
               "statements": [
                 {
                   "expression": {
@@ -1162,7 +1162,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 2187,
-                            "src": "1071:19:18",
+                            "src": "1073:19:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -1175,7 +1175,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 2204,
-                              "src": "1108:9:18",
+                              "src": "1110:9:18",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_AssetType_$2197_memory_ptr",
                                 "typeString": "struct LibAsset.AssetType memory"
@@ -1189,7 +1189,7 @@
                             "memberName": "assetClass",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 2194,
-                            "src": "1108:20:18",
+                            "src": "1110:20:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes4",
                               "typeString": "bytes4"
@@ -1204,7 +1204,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 2204,
-                                  "src": "1156:9:18",
+                                  "src": "1158:9:18",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_struct$_AssetType_$2197_memory_ptr",
                                     "typeString": "struct LibAsset.AssetType memory"
@@ -1218,7 +1218,7 @@
                                 "memberName": "data",
                                 "nodeType": "MemberAccess",
                                 "referencedDeclaration": 2196,
-                                "src": "1156:14:18",
+                                "src": "1158:14:18",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_bytes_memory_ptr",
                                   "typeString": "bytes memory"
@@ -1237,7 +1237,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 4294967288,
-                              "src": "1146:9:18",
+                              "src": "1148:9:18",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
                                 "typeString": "function (bytes memory) pure returns (bytes32)"
@@ -1251,7 +1251,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "1146:25:18",
+                            "src": "1148:25:18",
                             "tryCall": false,
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -1280,7 +1280,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967295,
-                            "src": "1043:3:18",
+                            "src": "1045:3:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
                               "typeString": "abi"
@@ -1293,7 +1293,7 @@
                           "lValueRequested": false,
                           "memberName": "encode",
                           "nodeType": "MemberAccess",
-                          "src": "1043:10:18",
+                          "src": "1045:10:18",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_abiencode_pure$__$returns$_t_bytes_memory_ptr_$",
                             "typeString": "function () pure returns (bytes memory)"
@@ -1307,7 +1307,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1043:142:18",
+                        "src": "1045:142:18",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
@@ -1327,7 +1327,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 4294967288,
-                      "src": "1033:9:18",
+                      "src": "1035:9:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
                         "typeString": "function (bytes memory) pure returns (bytes32)"
@@ -1341,7 +1341,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1033:153:18",
+                    "src": "1035:153:18",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
@@ -1351,7 +1351,7 @@
                   "functionReturnParameters": 2208,
                   "id": 2221,
                   "nodeType": "Return",
-                  "src": "1026:160:18"
+                  "src": "1028:160:18"
                 }
               ]
             },
@@ -1372,7 +1372,7 @@
                   "name": "assetType",
                   "nodeType": "VariableDeclaration",
                   "scope": 2223,
-                  "src": "956:26:18",
+                  "src": "958:26:18",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1384,7 +1384,7 @@
                     "name": "AssetType",
                     "nodeType": "UserDefinedTypeName",
                     "referencedDeclaration": 2197,
-                    "src": "956:9:18",
+                    "src": "958:9:18",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_AssetType_$2197_storage_ptr",
                       "typeString": "struct LibAsset.AssetType"
@@ -1393,7 +1393,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "955:28:18"
+              "src": "957:28:18"
             },
             "returnParameters": {
               "id": 2208,
@@ -1406,7 +1406,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 2223,
-                  "src": "1007:7:18",
+                  "src": "1009:7:18",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1417,7 +1417,7 @@
                     "id": 2206,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1007:7:18",
+                    "src": "1009:7:18",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1426,10 +1426,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1006:9:18"
+              "src": "1008:9:18"
             },
             "scope": 2245,
-            "src": "942:251:18",
+            "src": "944:251:18",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
@@ -1438,7 +1438,7 @@
             "body": {
               "id": 2243,
               "nodeType": "Block",
-              "src": "1265:159:18",
+              "src": "1267:159:18",
               "statements": [
                 {
                   "expression": {
@@ -1451,7 +1451,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 2192,
-                            "src": "1320:14:18",
+                            "src": "1322:14:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -1466,7 +1466,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 2225,
-                                  "src": "1357:5:18",
+                                  "src": "1359:5:18",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_struct$_Asset_$2202_memory_ptr",
                                     "typeString": "struct LibAsset.Asset memory"
@@ -1480,7 +1480,7 @@
                                 "memberName": "assetType",
                                 "nodeType": "MemberAccess",
                                 "referencedDeclaration": 2199,
-                                "src": "1357:15:18",
+                                "src": "1359:15:18",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_AssetType_$2197_memory_ptr",
                                   "typeString": "struct LibAsset.AssetType memory"
@@ -1502,7 +1502,7 @@
                                 2244
                               ],
                               "referencedDeclaration": 2223,
-                              "src": "1352:4:18",
+                              "src": "1354:4:18",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_struct$_AssetType_$2197_memory_ptr_$returns$_t_bytes32_$",
                                 "typeString": "function (struct LibAsset.AssetType memory) pure returns (bytes32)"
@@ -1516,7 +1516,7 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "1352:21:18",
+                            "src": "1354:21:18",
                             "tryCall": false,
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
@@ -1530,7 +1530,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 2225,
-                              "src": "1391:5:18",
+                              "src": "1393:5:18",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Asset_$2202_memory_ptr",
                                 "typeString": "struct LibAsset.Asset memory"
@@ -1544,7 +1544,7 @@
                             "memberName": "value",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 2201,
-                            "src": "1391:11:18",
+                            "src": "1393:11:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1572,7 +1572,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967295,
-                            "src": "1292:3:18",
+                            "src": "1294:3:18",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
                               "typeString": "abi"
@@ -1585,7 +1585,7 @@
                           "lValueRequested": false,
                           "memberName": "encode",
                           "nodeType": "MemberAccess",
-                          "src": "1292:10:18",
+                          "src": "1294:10:18",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_abiencode_pure$__$returns$_t_bytes_memory_ptr_$",
                             "typeString": "function () pure returns (bytes memory)"
@@ -1599,7 +1599,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "1292:124:18",
+                        "src": "1294:124:18",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
@@ -1619,7 +1619,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 4294967288,
-                      "src": "1282:9:18",
+                      "src": "1284:9:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
                         "typeString": "function (bytes memory) pure returns (bytes32)"
@@ -1633,7 +1633,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1282:135:18",
+                    "src": "1284:135:18",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
@@ -1643,7 +1643,7 @@
                   "functionReturnParameters": 2229,
                   "id": 2242,
                   "nodeType": "Return",
-                  "src": "1275:142:18"
+                  "src": "1277:142:18"
                 }
               ]
             },
@@ -1664,7 +1664,7 @@
                   "name": "asset",
                   "nodeType": "VariableDeclaration",
                   "scope": 2244,
-                  "src": "1213:18:18",
+                  "src": "1215:18:18",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1676,7 +1676,7 @@
                     "name": "Asset",
                     "nodeType": "UserDefinedTypeName",
                     "referencedDeclaration": 2202,
-                    "src": "1213:5:18",
+                    "src": "1215:5:18",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Asset_$2202_storage_ptr",
                       "typeString": "struct LibAsset.Asset"
@@ -1685,7 +1685,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1212:20:18"
+              "src": "1214:20:18"
             },
             "returnParameters": {
               "id": 2229,
@@ -1698,7 +1698,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 2244,
-                  "src": "1256:7:18",
+                  "src": "1258:7:18",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1709,7 +1709,7 @@
                     "id": 2227,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1256:7:18",
+                    "src": "1258:7:18",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1718,20 +1718,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1255:9:18"
+              "src": "1257:9:18"
             },
             "scope": 2245,
-            "src": "1199:225:18",
+            "src": "1201:225:18",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
           }
         ],
         "scope": 2246,
-        "src": "57:1370:18"
+        "src": "57:1372:18"
       }
     ],
-    "src": "33:1395:18"
+    "src": "33:1397:18"
   },
   "legacyAST": {
     "attributes": {
@@ -2422,9 +2422,9 @@
           {
             "attributes": {
               "constant": true,
-              "functionSelector": "b45fb186",
+              "functionSelector": "1d328136",
               "mutability": "constant",
-              "name": "CRYPTO_PUNK",
+              "name": "CRYPTO_PUNKS",
               "scope": 2245,
               "stateVariable": true,
               "storageLocation": "default",
@@ -2477,12 +2477,12 @@
                         },
                         "id": 2176,
                         "name": "ElementaryTypeName",
-                        "src": "492:6:18"
+                        "src": "493:6:18"
                       }
                     ],
                     "id": 2177,
                     "name": "ElementaryTypeNameExpression",
-                    "src": "492:6:18"
+                    "src": "493:6:18"
                   },
                   {
                     "attributes": {
@@ -2503,8 +2503,8 @@
                         "attributes": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_stringliteral_0c1f0bf7326e45ad93fde5fb4e36567e0cea0fec84e324cb896aa8c8d1490eca",
-                              "typeString": "literal_string \"CRYPTO_PUNK\""
+                              "typeIdentifier": "t_stringliteral_3e6b89d41ae6cce5def8a4064ada8dba77d057c7a0113741d26b5e4eccdd2a7e",
+                              "typeString": "literal_string \"CRYPTO_PUNKS\""
                             }
                           ],
                           "overloadedDeclarations": [
@@ -2516,37 +2516,37 @@
                         },
                         "id": 2178,
                         "name": "Identifier",
-                        "src": "499:9:18"
+                        "src": "500:9:18"
                       },
                       {
                         "attributes": {
-                          "hexvalue": "43525950544f5f50554e4b",
+                          "hexvalue": "43525950544f5f50554e4b53",
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "token": "string",
-                          "type": "literal_string \"CRYPTO_PUNK\"",
-                          "value": "CRYPTO_PUNK"
+                          "type": "literal_string \"CRYPTO_PUNKS\"",
+                          "value": "CRYPTO_PUNKS"
                         },
                         "id": 2179,
                         "name": "Literal",
-                        "src": "509:13:18"
+                        "src": "510:14:18"
                       }
                     ],
                     "id": 2180,
                     "name": "FunctionCall",
-                    "src": "499:24:18"
+                    "src": "500:25:18"
                   }
                 ],
                 "id": 2181,
                 "name": "FunctionCall",
-                "src": "492:32:18"
+                "src": "493:33:18"
               }
             ],
             "id": 2182,
             "name": "VariableDeclaration",
-            "src": "455:69:18"
+            "src": "455:71:18"
           },
           {
             "attributes": {
@@ -2567,7 +2567,7 @@
                 },
                 "id": 2183,
                 "name": "ElementaryTypeName",
-                "src": "531:7:18"
+                "src": "533:7:18"
               },
               {
                 "attributes": {
@@ -2601,7 +2601,7 @@
                     },
                     "id": 2184,
                     "name": "Identifier",
-                    "src": "570:9:18"
+                    "src": "572:9:18"
                   },
                   {
                     "attributes": {
@@ -2616,17 +2616,17 @@
                     },
                     "id": 2185,
                     "name": "Literal",
-                    "src": "589:41:18"
+                    "src": "591:41:18"
                   }
                 ],
                 "id": 2186,
                 "name": "FunctionCall",
-                "src": "570:66:18"
+                "src": "572:66:18"
               }
             ],
             "id": 2187,
             "name": "VariableDeclaration",
-            "src": "531:105:18"
+            "src": "533:105:18"
           },
           {
             "attributes": {
@@ -2647,7 +2647,7 @@
                 },
                 "id": 2188,
                 "name": "ElementaryTypeName",
-                "src": "643:7:18"
+                "src": "645:7:18"
               },
               {
                 "attributes": {
@@ -2681,7 +2681,7 @@
                     },
                     "id": 2189,
                     "name": "Identifier",
-                    "src": "677:9:18"
+                    "src": "679:9:18"
                   },
                   {
                     "attributes": {
@@ -2696,17 +2696,17 @@
                     },
                     "id": 2190,
                     "name": "Literal",
-                    "src": "696:81:18"
+                    "src": "698:81:18"
                   }
                 ],
                 "id": 2191,
                 "name": "FunctionCall",
-                "src": "677:106:18"
+                "src": "679:106:18"
               }
             ],
             "id": 2192,
             "name": "VariableDeclaration",
-            "src": "643:140:18"
+            "src": "645:140:18"
           },
           {
             "attributes": {
@@ -2735,12 +2735,12 @@
                     },
                     "id": 2193,
                     "name": "ElementaryTypeName",
-                    "src": "817:6:18"
+                    "src": "819:6:18"
                   }
                 ],
                 "id": 2194,
                 "name": "VariableDeclaration",
-                "src": "817:17:18"
+                "src": "819:17:18"
               },
               {
                 "attributes": {
@@ -2761,17 +2761,17 @@
                     },
                     "id": 2195,
                     "name": "ElementaryTypeName",
-                    "src": "844:5:18"
+                    "src": "846:5:18"
                   }
                 ],
                 "id": 2196,
                 "name": "VariableDeclaration",
-                "src": "844:10:18"
+                "src": "846:10:18"
               }
             ],
             "id": 2197,
             "name": "StructDefinition",
-            "src": "790:71:18"
+            "src": "792:71:18"
           },
           {
             "attributes": {
@@ -2801,12 +2801,12 @@
                     },
                     "id": 2198,
                     "name": "UserDefinedTypeName",
-                    "src": "890:9:18"
+                    "src": "892:9:18"
                   }
                 ],
                 "id": 2199,
                 "name": "VariableDeclaration",
-                "src": "890:19:18"
+                "src": "892:19:18"
               },
               {
                 "attributes": {
@@ -2827,17 +2827,17 @@
                     },
                     "id": 2200,
                     "name": "ElementaryTypeName",
-                    "src": "919:4:18"
+                    "src": "921:4:18"
                   }
                 ],
                 "id": 2201,
                 "name": "VariableDeclaration",
-                "src": "919:10:18"
+                "src": "921:10:18"
               }
             ],
             "id": 2202,
             "name": "StructDefinition",
-            "src": "867:69:18"
+            "src": "869:69:18"
           },
           {
             "attributes": {
@@ -2876,17 +2876,17 @@
                         },
                         "id": 2203,
                         "name": "UserDefinedTypeName",
-                        "src": "956:9:18"
+                        "src": "958:9:18"
                       }
                     ],
                     "id": 2204,
                     "name": "VariableDeclaration",
-                    "src": "956:26:18"
+                    "src": "958:26:18"
                   }
                 ],
                 "id": 2205,
                 "name": "ParameterList",
-                "src": "955:28:18"
+                "src": "957:28:18"
               },
               {
                 "children": [
@@ -2909,17 +2909,17 @@
                         },
                         "id": 2206,
                         "name": "ElementaryTypeName",
-                        "src": "1007:7:18"
+                        "src": "1009:7:18"
                       }
                     ],
                     "id": 2207,
                     "name": "VariableDeclaration",
-                    "src": "1007:7:18"
+                    "src": "1009:7:18"
                   }
                 ],
                 "id": 2208,
                 "name": "ParameterList",
-                "src": "1006:9:18"
+                "src": "1008:9:18"
               },
               {
                 "children": [
@@ -2960,7 +2960,7 @@
                             },
                             "id": 2209,
                             "name": "Identifier",
-                            "src": "1033:9:18"
+                            "src": "1035:9:18"
                           },
                           {
                             "attributes": {
@@ -3012,12 +3012,12 @@
                                     },
                                     "id": 2210,
                                     "name": "Identifier",
-                                    "src": "1043:3:18"
+                                    "src": "1045:3:18"
                                   }
                                 ],
                                 "id": 2211,
                                 "name": "MemberAccess",
-                                "src": "1043:10:18"
+                                "src": "1045:10:18"
                               },
                               {
                                 "attributes": {
@@ -3030,7 +3030,7 @@
                                 },
                                 "id": 2212,
                                 "name": "Identifier",
-                                "src": "1071:19:18"
+                                "src": "1073:19:18"
                               },
                               {
                                 "attributes": {
@@ -3054,12 +3054,12 @@
                                     },
                                     "id": 2213,
                                     "name": "Identifier",
-                                    "src": "1108:9:18"
+                                    "src": "1110:9:18"
                                   }
                                 ],
                                 "id": 2214,
                                 "name": "MemberAccess",
-                                "src": "1108:20:18"
+                                "src": "1110:20:18"
                               },
                               {
                                 "attributes": {
@@ -3093,7 +3093,7 @@
                                     },
                                     "id": 2215,
                                     "name": "Identifier",
-                                    "src": "1146:9:18"
+                                    "src": "1148:9:18"
                                   },
                                   {
                                     "attributes": {
@@ -3117,42 +3117,42 @@
                                         },
                                         "id": 2216,
                                         "name": "Identifier",
-                                        "src": "1156:9:18"
+                                        "src": "1158:9:18"
                                       }
                                     ],
                                     "id": 2217,
                                     "name": "MemberAccess",
-                                    "src": "1156:14:18"
+                                    "src": "1158:14:18"
                                   }
                                 ],
                                 "id": 2218,
                                 "name": "FunctionCall",
-                                "src": "1146:25:18"
+                                "src": "1148:25:18"
                               }
                             ],
                             "id": 2219,
                             "name": "FunctionCall",
-                            "src": "1043:142:18"
+                            "src": "1045:142:18"
                           }
                         ],
                         "id": 2220,
                         "name": "FunctionCall",
-                        "src": "1033:153:18"
+                        "src": "1035:153:18"
                       }
                     ],
                     "id": 2221,
                     "name": "Return",
-                    "src": "1026:160:18"
+                    "src": "1028:160:18"
                   }
                 ],
                 "id": 2222,
                 "name": "Block",
-                "src": "1016:177:18"
+                "src": "1018:177:18"
               }
             ],
             "id": 2223,
             "name": "FunctionDefinition",
-            "src": "942:251:18"
+            "src": "944:251:18"
           },
           {
             "attributes": {
@@ -3191,17 +3191,17 @@
                         },
                         "id": 2224,
                         "name": "UserDefinedTypeName",
-                        "src": "1213:5:18"
+                        "src": "1215:5:18"
                       }
                     ],
                     "id": 2225,
                     "name": "VariableDeclaration",
-                    "src": "1213:18:18"
+                    "src": "1215:18:18"
                   }
                 ],
                 "id": 2226,
                 "name": "ParameterList",
-                "src": "1212:20:18"
+                "src": "1214:20:18"
               },
               {
                 "children": [
@@ -3224,17 +3224,17 @@
                         },
                         "id": 2227,
                         "name": "ElementaryTypeName",
-                        "src": "1256:7:18"
+                        "src": "1258:7:18"
                       }
                     ],
                     "id": 2228,
                     "name": "VariableDeclaration",
-                    "src": "1256:7:18"
+                    "src": "1258:7:18"
                   }
                 ],
                 "id": 2229,
                 "name": "ParameterList",
-                "src": "1255:9:18"
+                "src": "1257:9:18"
               },
               {
                 "children": [
@@ -3275,7 +3275,7 @@
                             },
                             "id": 2230,
                             "name": "Identifier",
-                            "src": "1282:9:18"
+                            "src": "1284:9:18"
                           },
                           {
                             "attributes": {
@@ -3327,12 +3327,12 @@
                                     },
                                     "id": 2231,
                                     "name": "Identifier",
-                                    "src": "1292:3:18"
+                                    "src": "1294:3:18"
                                   }
                                 ],
                                 "id": 2232,
                                 "name": "MemberAccess",
-                                "src": "1292:10:18"
+                                "src": "1294:10:18"
                               },
                               {
                                 "attributes": {
@@ -3345,7 +3345,7 @@
                                 },
                                 "id": 2233,
                                 "name": "Identifier",
-                                "src": "1320:14:18"
+                                "src": "1322:14:18"
                               },
                               {
                                 "attributes": {
@@ -3380,7 +3380,7 @@
                                     },
                                     "id": 2234,
                                     "name": "Identifier",
-                                    "src": "1352:4:18"
+                                    "src": "1354:4:18"
                                   },
                                   {
                                     "attributes": {
@@ -3404,17 +3404,17 @@
                                         },
                                         "id": 2235,
                                         "name": "Identifier",
-                                        "src": "1357:5:18"
+                                        "src": "1359:5:18"
                                       }
                                     ],
                                     "id": 2236,
                                     "name": "MemberAccess",
-                                    "src": "1357:15:18"
+                                    "src": "1359:15:18"
                                   }
                                 ],
                                 "id": 2237,
                                 "name": "FunctionCall",
-                                "src": "1352:21:18"
+                                "src": "1354:21:18"
                               },
                               {
                                 "attributes": {
@@ -3438,55 +3438,55 @@
                                     },
                                     "id": 2238,
                                     "name": "Identifier",
-                                    "src": "1391:5:18"
+                                    "src": "1393:5:18"
                                   }
                                 ],
                                 "id": 2239,
                                 "name": "MemberAccess",
-                                "src": "1391:11:18"
+                                "src": "1393:11:18"
                               }
                             ],
                             "id": 2240,
                             "name": "FunctionCall",
-                            "src": "1292:124:18"
+                            "src": "1294:124:18"
                           }
                         ],
                         "id": 2241,
                         "name": "FunctionCall",
-                        "src": "1282:135:18"
+                        "src": "1284:135:18"
                       }
                     ],
                     "id": 2242,
                     "name": "Return",
-                    "src": "1275:142:18"
+                    "src": "1277:142:18"
                   }
                 ],
                 "id": 2243,
                 "name": "Block",
-                "src": "1265:159:18"
+                "src": "1267:159:18"
               }
             ],
             "id": 2244,
             "name": "FunctionDefinition",
-            "src": "1199:225:18"
+            "src": "1201:225:18"
           }
         ],
         "id": 2245,
         "name": "ContractDefinition",
-        "src": "57:1370:18"
+        "src": "57:1372:18"
       }
     ],
     "id": 2246,
     "name": "SourceUnit",
-    "src": "33:1395:18"
+    "src": "33:1397:18"
   },
   "compiler": {
     "name": "solc",
     "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-08T12:47:29.797Z",
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T01:33:13.430Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

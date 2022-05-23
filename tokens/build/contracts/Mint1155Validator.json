@@ -10,7 +10,7 @@
   "sourceMap": "172:358:61:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "172:358:61:-:0;;;;;",
   "source": "// SPDX-License-Identifier: MIT\n\npragma solidity 0.7.6;\n\nimport \"../erc-1271/ERC1271Validator.sol\";\nimport \"@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol\";\n\ncontract Mint1155Validator is ERC1271Validator {\n    function __Mint1155Validator_init_unchained() internal initializer {\n        __EIP712_init_unchained(\"Mint1155\", \"1\");\n    }\n\n    function validate(address account, bytes32 hash, bytes memory signature) internal view {\n        validate1271(account, hash, signature);\n    }\n    uint256[50] private __gap;\n}\n",
-  "sourcePath": "/Users/ds/Documents/rarible/test-contracts/protocol-contracts/tokens/contracts/erc-1155/Mint1155Validator.sol",
+  "sourcePath": "/home/kaicheng/Projects/protocol-contracts/tokens/contracts/erc-1155/Mint1155Validator.sol",
   "ast": {
     "absolutePath": "project:/contracts/erc-1155/Mint1155Validator.sol",
     "exportedSymbols": {
@@ -21,10 +21,10 @@
         290
       ],
       "ERC1271": [
-        9889
+        9892
       ],
       "ERC1271Validator": [
-        9973
+        9976
       ],
       "Initializable": [
         798
@@ -39,15 +39,15 @@
         4217
       ],
       "Mint1155Validator": [
-        9584
+        9587
       ]
     },
-    "id": 9585,
+    "id": 9588,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 9548,
+        "id": 9551,
         "literals": [
           "solidity",
           "0.7",
@@ -59,10 +59,10 @@
       {
         "absolutePath": "project:/contracts/erc-1271/ERC1271Validator.sol",
         "file": "../erc-1271/ERC1271Validator.sol",
-        "id": 9549,
+        "id": 9552,
         "nodeType": "ImportDirective",
-        "scope": 9585,
-        "sourceUnit": 9974,
+        "scope": 9588,
+        "sourceUnit": 9977,
         "src": "57:42:61",
         "symbolAliases": [],
         "unitAlias": ""
@@ -70,9 +70,9 @@
       {
         "absolutePath": "@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol",
         "file": "@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol",
-        "id": 9550,
+        "id": 9553,
         "nodeType": "ImportDirective",
-        "scope": 9585,
+        "scope": 9588,
         "sourceUnit": 3886,
         "src": "100:70:61",
         "symbolAliases": [],
@@ -83,17 +83,17 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 9551,
+              "id": 9554,
               "name": "ERC1271Validator",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 9973,
+              "referencedDeclaration": 9976,
               "src": "202:16:61",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC1271Validator_$9973",
+                "typeIdentifier": "t_contract$_ERC1271Validator_$9976",
                 "typeString": "contract ERC1271Validator"
               }
             },
-            "id": 9552,
+            "id": 9555,
             "nodeType": "InheritanceSpecifier",
             "src": "202:16:61"
           }
@@ -101,14 +101,14 @@
         "contractDependencies": [
           290,
           798,
-          9973
+          9976
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 9584,
+        "id": 9587,
         "linearizedBaseContracts": [
-          9584,
-          9973,
+          9587,
+          9976,
           290,
           798
         ],
@@ -117,7 +117,7 @@
         "nodes": [
           {
             "body": {
-              "id": 9562,
+              "id": 9565,
               "nodeType": "Block",
               "src": "292:57:61",
               "statements": [
@@ -126,7 +126,7 @@
                     "arguments": [
                       {
                         "hexValue": "4d696e7431313535",
-                        "id": 9558,
+                        "id": 9561,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -142,7 +142,7 @@
                       },
                       {
                         "hexValue": "31",
-                        "id": 9559,
+                        "id": 9562,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -168,7 +168,7 @@
                           "typeString": "literal_string \"1\""
                         }
                       ],
-                      "id": 9557,
+                      "id": 9560,
                       "name": "__EIP712_init_unchained",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -179,7 +179,7 @@
                         "typeString": "function (string memory,string memory)"
                       }
                     },
-                    "id": 9560,
+                    "id": 9563,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -194,20 +194,20 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 9561,
+                  "id": 9564,
                   "nodeType": "ExpressionStatement",
                   "src": "302:40:61"
                 }
               ]
             },
-            "id": 9563,
+            "id": 9566,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 9555,
+                "id": 9558,
                 "modifierName": {
-                  "id": 9554,
+                  "id": 9557,
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
@@ -225,18 +225,18 @@
             "name": "__Mint1155Validator_init_unchained",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 9553,
+              "id": 9556,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "268:2:61"
             },
             "returnParameters": {
-              "id": 9556,
+              "id": 9559,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "292:0:61"
             },
-            "scope": 9584,
+            "scope": 9587,
             "src": "225:124:61",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -244,7 +244,7 @@
           },
           {
             "body": {
-              "id": 9578,
+              "id": 9581,
               "nodeType": "Block",
               "src": "442:55:61",
               "statements": [
@@ -252,11 +252,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 9573,
+                        "id": 9576,
                         "name": "account",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9565,
+                        "referencedDeclaration": 9568,
                         "src": "465:7:61",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -264,11 +264,11 @@
                         }
                       },
                       {
-                        "id": 9574,
+                        "id": 9577,
                         "name": "hash",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9567,
+                        "referencedDeclaration": 9570,
                         "src": "474:4:61",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -276,11 +276,11 @@
                         }
                       },
                       {
-                        "id": 9575,
+                        "id": 9578,
                         "name": "signature",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 9569,
+                        "referencedDeclaration": 9572,
                         "src": "480:9:61",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
@@ -303,18 +303,18 @@
                           "typeString": "bytes memory"
                         }
                       ],
-                      "id": 9572,
+                      "id": 9575,
                       "name": "validate1271",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 9968,
+                      "referencedDeclaration": 9971,
                       "src": "452:12:61",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$_t_bytes32_$_t_bytes_memory_ptr_$returns$__$",
                         "typeString": "function (address,bytes32,bytes memory) view"
                       }
                     },
-                    "id": 9576,
+                    "id": 9579,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -329,29 +329,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 9577,
+                  "id": 9580,
                   "nodeType": "ExpressionStatement",
                   "src": "452:38:61"
                 }
               ]
             },
-            "id": 9579,
+            "id": 9582,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "validate",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 9570,
+              "id": 9573,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 9565,
+                  "id": 9568,
                   "mutability": "mutable",
                   "name": "account",
                   "nodeType": "VariableDeclaration",
-                  "scope": 9579,
+                  "scope": 9582,
                   "src": "373:15:61",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -360,7 +360,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 9564,
+                    "id": 9567,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "373:7:61",
@@ -374,11 +374,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 9567,
+                  "id": 9570,
                   "mutability": "mutable",
                   "name": "hash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 9579,
+                  "scope": 9582,
                   "src": "390:12:61",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -387,7 +387,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 9566,
+                    "id": 9569,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "390:7:61",
@@ -400,11 +400,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 9569,
+                  "id": 9572,
                   "mutability": "mutable",
                   "name": "signature",
                   "nodeType": "VariableDeclaration",
-                  "scope": 9579,
+                  "scope": 9582,
                   "src": "404:22:61",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -413,7 +413,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 9568,
+                    "id": 9571,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "404:5:61",
@@ -428,12 +428,12 @@
               "src": "372:55:61"
             },
             "returnParameters": {
-              "id": 9571,
+              "id": 9574,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "442:0:61"
             },
-            "scope": 9584,
+            "scope": 9587,
             "src": "355:142:61",
             "stateMutability": "view",
             "virtual": false,
@@ -441,11 +441,11 @@
           },
           {
             "constant": false,
-            "id": 9583,
+            "id": 9586,
             "mutability": "mutable",
             "name": "__gap",
             "nodeType": "VariableDeclaration",
-            "scope": 9584,
+            "scope": 9587,
             "src": "502:25:61",
             "stateVariable": true,
             "storageLocation": "default",
@@ -455,7 +455,7 @@
             },
             "typeName": {
               "baseType": {
-                "id": 9580,
+                "id": 9583,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "502:7:61",
@@ -464,10 +464,10 @@
                   "typeString": "uint256"
                 }
               },
-              "id": 9582,
+              "id": 9585,
               "length": {
                 "hexValue": "3530",
-                "id": 9581,
+                "id": 9584,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -491,7 +491,7 @@
             "visibility": "private"
           }
         ],
-        "scope": 9585,
+        "scope": 9588,
         "src": "172:358:61"
       }
     ],
@@ -508,10 +508,10 @@
           290
         ],
         "ERC1271": [
-          9889
+          9892
         ],
         "ERC1271Validator": [
-          9973
+          9976
         ],
         "Initializable": [
           798
@@ -526,7 +526,7 @@
           4217
         ],
         "Mint1155Validator": [
-          9584
+          9587
         ]
       },
       "license": "MIT"
@@ -540,22 +540,22 @@
             ".6"
           ]
         },
-        "id": 9548,
+        "id": 9551,
         "name": "PragmaDirective",
         "src": "33:22:61"
       },
       {
         "attributes": {
-          "SourceUnit": 9974,
+          "SourceUnit": 9977,
           "absolutePath": "project:/contracts/erc-1271/ERC1271Validator.sol",
           "file": "../erc-1271/ERC1271Validator.sol",
-          "scope": 9585,
+          "scope": 9588,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 9549,
+        "id": 9552,
         "name": "ImportDirective",
         "src": "57:42:61"
       },
@@ -564,13 +564,13 @@
           "SourceUnit": 3886,
           "absolutePath": "@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol",
           "file": "@rarible/lazy-mint/contracts/erc-1155/LibERC1155LazyMint.sol",
-          "scope": 9585,
+          "scope": 9588,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 9550,
+        "id": 9553,
         "name": "ImportDirective",
         "src": "100:70:61"
       },
@@ -580,18 +580,18 @@
           "contractDependencies": [
             290,
             798,
-            9973
+            9976
           ],
           "contractKind": "contract",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            9584,
-            9973,
+            9587,
+            9976,
             290,
             798
           ],
           "name": "Mint1155Validator",
-          "scope": 9585
+          "scope": 9588
         },
         "children": [
           {
@@ -600,15 +600,15 @@
               {
                 "attributes": {
                   "name": "ERC1271Validator",
-                  "referencedDeclaration": 9973,
+                  "referencedDeclaration": 9976,
                   "type": "contract ERC1271Validator"
                 },
-                "id": 9551,
+                "id": 9554,
                 "name": "UserDefinedTypeName",
                 "src": "202:16:61"
               }
             ],
-            "id": 9552,
+            "id": 9555,
             "name": "InheritanceSpecifier",
             "src": "202:16:61"
           },
@@ -618,7 +618,7 @@
               "isConstructor": false,
               "kind": "function",
               "name": "__Mint1155Validator_init_unchained",
-              "scope": 9584,
+              "scope": 9587,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "internal"
@@ -631,7 +631,7 @@
                   ]
                 },
                 "children": [],
-                "id": 9553,
+                "id": 9556,
                 "name": "ParameterList",
                 "src": "268:2:61"
               },
@@ -642,7 +642,7 @@
                   ]
                 },
                 "children": [],
-                "id": 9556,
+                "id": 9559,
                 "name": "ParameterList",
                 "src": "292:0:61"
               },
@@ -658,12 +658,12 @@
                       "type": "modifier ()",
                       "value": "initializer"
                     },
-                    "id": 9554,
+                    "id": 9557,
                     "name": "Identifier",
                     "src": "280:11:61"
                   }
                 ],
-                "id": 9555,
+                "id": 9558,
                 "name": "ModifierInvocation",
                 "src": "280:11:61"
               },
@@ -705,7 +705,7 @@
                               "type": "function (string memory,string memory)",
                               "value": "__EIP712_init_unchained"
                             },
-                            "id": 9557,
+                            "id": 9560,
                             "name": "Identifier",
                             "src": "302:23:61"
                           },
@@ -720,7 +720,7 @@
                               "type": "literal_string \"Mint1155\"",
                               "value": "Mint1155"
                             },
-                            "id": 9558,
+                            "id": 9561,
                             "name": "Literal",
                             "src": "326:10:61"
                           },
@@ -735,27 +735,27 @@
                               "type": "literal_string \"1\"",
                               "value": "1"
                             },
-                            "id": 9559,
+                            "id": 9562,
                             "name": "Literal",
                             "src": "338:3:61"
                           }
                         ],
-                        "id": 9560,
+                        "id": 9563,
                         "name": "FunctionCall",
                         "src": "302:40:61"
                       }
                     ],
-                    "id": 9561,
+                    "id": 9564,
                     "name": "ExpressionStatement",
                     "src": "302:40:61"
                   }
                 ],
-                "id": 9562,
+                "id": 9565,
                 "name": "Block",
                 "src": "292:57:61"
               }
             ],
-            "id": 9563,
+            "id": 9566,
             "name": "FunctionDefinition",
             "src": "225:124:61"
           },
@@ -768,7 +768,7 @@
                 null
               ],
               "name": "validate",
-              "scope": 9584,
+              "scope": 9587,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "internal"
@@ -781,7 +781,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "account",
-                      "scope": 9579,
+                      "scope": 9582,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -794,12 +794,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 9564,
+                        "id": 9567,
                         "name": "ElementaryTypeName",
                         "src": "373:7:61"
                       }
                     ],
-                    "id": 9565,
+                    "id": 9568,
                     "name": "VariableDeclaration",
                     "src": "373:15:61"
                   },
@@ -808,7 +808,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "hash",
-                      "scope": 9579,
+                      "scope": 9582,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -820,12 +820,12 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 9566,
+                        "id": 9569,
                         "name": "ElementaryTypeName",
                         "src": "390:7:61"
                       }
                     ],
-                    "id": 9567,
+                    "id": 9570,
                     "name": "VariableDeclaration",
                     "src": "390:12:61"
                   },
@@ -834,7 +834,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "signature",
-                      "scope": 9579,
+                      "scope": 9582,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "bytes",
@@ -846,17 +846,17 @@
                           "name": "bytes",
                           "type": "bytes"
                         },
-                        "id": 9568,
+                        "id": 9571,
                         "name": "ElementaryTypeName",
                         "src": "404:5:61"
                       }
                     ],
-                    "id": 9569,
+                    "id": 9572,
                     "name": "VariableDeclaration",
                     "src": "404:22:61"
                   }
                 ],
-                "id": 9570,
+                "id": 9573,
                 "name": "ParameterList",
                 "src": "372:55:61"
               },
@@ -867,7 +867,7 @@
                   ]
                 },
                 "children": [],
-                "id": 9571,
+                "id": 9574,
                 "name": "ParameterList",
                 "src": "442:0:61"
               },
@@ -909,11 +909,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 9968,
+                              "referencedDeclaration": 9971,
                               "type": "function (address,bytes32,bytes memory) view",
                               "value": "validate1271"
                             },
-                            "id": 9572,
+                            "id": 9575,
                             "name": "Identifier",
                             "src": "452:12:61"
                           },
@@ -922,11 +922,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 9565,
+                              "referencedDeclaration": 9568,
                               "type": "address",
                               "value": "account"
                             },
-                            "id": 9573,
+                            "id": 9576,
                             "name": "Identifier",
                             "src": "465:7:61"
                           },
@@ -935,11 +935,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 9567,
+                              "referencedDeclaration": 9570,
                               "type": "bytes32",
                               "value": "hash"
                             },
-                            "id": 9574,
+                            "id": 9577,
                             "name": "Identifier",
                             "src": "474:4:61"
                           },
@@ -948,31 +948,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 9569,
+                              "referencedDeclaration": 9572,
                               "type": "bytes memory",
                               "value": "signature"
                             },
-                            "id": 9575,
+                            "id": 9578,
                             "name": "Identifier",
                             "src": "480:9:61"
                           }
                         ],
-                        "id": 9576,
+                        "id": 9579,
                         "name": "FunctionCall",
                         "src": "452:38:61"
                       }
                     ],
-                    "id": 9577,
+                    "id": 9580,
                     "name": "ExpressionStatement",
                     "src": "452:38:61"
                   }
                 ],
-                "id": 9578,
+                "id": 9581,
                 "name": "Block",
                 "src": "442:55:61"
               }
             ],
-            "id": 9579,
+            "id": 9582,
             "name": "FunctionDefinition",
             "src": "355:142:61"
           },
@@ -981,7 +981,7 @@
               "constant": false,
               "mutability": "mutable",
               "name": "__gap",
-              "scope": 9584,
+              "scope": 9587,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256[50]",
@@ -998,7 +998,7 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 9580,
+                    "id": 9583,
                     "name": "ElementaryTypeName",
                     "src": "502:7:61"
                   },
@@ -1013,27 +1013,27 @@
                       "type": "int_const 50",
                       "value": "50"
                     },
-                    "id": 9581,
+                    "id": 9584,
                     "name": "Literal",
                     "src": "510:2:61"
                   }
                 ],
-                "id": 9582,
+                "id": 9585,
                 "name": "ArrayTypeName",
                 "src": "502:11:61"
               }
             ],
-            "id": 9583,
+            "id": 9586,
             "name": "VariableDeclaration",
             "src": "502:25:61"
           }
         ],
-        "id": 9584,
+        "id": 9587,
         "name": "ContractDefinition",
         "src": "172:358:61"
       }
     ],
-    "id": 9585,
+    "id": 9588,
     "name": "SourceUnit",
     "src": "33:498:61"
   },
@@ -1042,8 +1042,8 @@
     "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2022-02-03T18:43:58.126Z",
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T00:40:51.555Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

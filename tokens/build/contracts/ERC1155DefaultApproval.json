@@ -342,7 +342,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\n\npragma solidity 0.7.6;\n\nimport \"./ERC1155Upgradeable.sol\";\n\nabstract contract ERC1155DefaultApproval is ERC1155Upgradeable {\n    mapping(address => bool) private defaultApprovals;\n\n    event DefaultApproval(address indexed operator, bool hasApproval);\n\n    function _setDefaultApproval(address operator, bool hasApproval) internal {\n        defaultApprovals[operator] = hasApproval;\n        emit DefaultApproval(operator, hasApproval);\n    }\n\n    function isApprovedForAll(address _owner, address _operator) public virtual override view returns (bool) {\n        return defaultApprovals[_operator] || super.isApprovedForAll(_owner, _operator);\n    }\n    uint256[50] private __gap;\n}\n",
-  "sourcePath": "/Users/ds/Documents/rarible/test-contracts/protocol-contracts/tokens/contracts/erc-1155/ERC1155DefaultApproval.sol",
+  "sourcePath": "/home/kaicheng/Projects/protocol-contracts/tokens/contracts/erc-1155/ERC1155DefaultApproval.sol",
   "ast": {
     "absolutePath": "project:/contracts/erc-1155/ERC1155DefaultApproval.sol",
     "exportedSymbols": {
@@ -353,13 +353,13 @@
         1512
       ],
       "ERC1155DefaultApproval": [
-        7627
+        7630
       ],
       "ERC1155ReceiverUpgradeable": [
         853
       ],
       "ERC1155Upgradeable": [
-        9546
+        9549
       ],
       "ERC165Upgradeable": [
         365
@@ -383,12 +383,12 @@
         732
       ]
     },
-    "id": 7628,
+    "id": 7631,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 7569,
+        "id": 7572,
         "literals": [
           "solidity",
           "0.7",
@@ -400,10 +400,10 @@
       {
         "absolutePath": "project:/contracts/erc-1155/ERC1155Upgradeable.sol",
         "file": "./ERC1155Upgradeable.sol",
-        "id": 7570,
+        "id": 7573,
         "nodeType": "ImportDirective",
-        "scope": 7628,
-        "sourceUnit": 9547,
+        "scope": 7631,
+        "sourceUnit": 9550,
         "src": "57:34:57",
         "symbolAliases": [],
         "unitAlias": ""
@@ -413,17 +413,17 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 7571,
+              "id": 7574,
               "name": "ERC1155Upgradeable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 9546,
+              "referencedDeclaration": 9549,
               "src": "137:18:57",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC1155Upgradeable_$9546",
+                "typeIdentifier": "t_contract$_ERC1155Upgradeable_$9549",
                 "typeString": "contract ERC1155Upgradeable"
               }
             },
-            "id": 7572,
+            "id": 7575,
             "nodeType": "InheritanceSpecifier",
             "src": "137:18:57"
           }
@@ -435,14 +435,14 @@
           868,
           1031,
           1512,
-          9546
+          9549
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 7627,
+        "id": 7630,
         "linearizedBaseContracts": [
-          7627,
-          9546,
+          7630,
+          9549,
           868,
           1031,
           365,
@@ -455,11 +455,11 @@
         "nodes": [
           {
             "constant": false,
-            "id": 7576,
+            "id": 7579,
             "mutability": "mutable",
             "name": "defaultApprovals",
             "nodeType": "VariableDeclaration",
-            "scope": 7627,
+            "scope": 7630,
             "src": "162:49:57",
             "stateVariable": true,
             "storageLocation": "default",
@@ -468,9 +468,9 @@
               "typeString": "mapping(address => bool)"
             },
             "typeName": {
-              "id": 7575,
+              "id": 7578,
               "keyType": {
-                "id": 7573,
+                "id": 7576,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "170:7:57",
@@ -486,7 +486,7 @@
                 "typeString": "mapping(address => bool)"
               },
               "valueType": {
-                "id": 7574,
+                "id": 7577,
                 "name": "bool",
                 "nodeType": "ElementaryTypeName",
                 "src": "181:4:57",
@@ -500,21 +500,21 @@
           },
           {
             "anonymous": false,
-            "id": 7582,
+            "id": 7585,
             "name": "DefaultApproval",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 7581,
+              "id": 7584,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7578,
+                  "id": 7581,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "operator",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7582,
+                  "scope": 7585,
                   "src": "240:24:57",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -523,7 +523,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 7577,
+                    "id": 7580,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "240:7:57",
@@ -537,12 +537,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 7580,
+                  "id": 7583,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "hasApproval",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7582,
+                  "scope": 7585,
                   "src": "266:16:57",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -551,7 +551,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 7579,
+                    "id": 7582,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "266:4:57",
@@ -569,37 +569,37 @@
           },
           {
             "body": {
-              "id": 7600,
+              "id": 7603,
               "nodeType": "Block",
               "src": "364:110:57",
               "statements": [
                 {
                   "expression": {
-                    "id": 7593,
+                    "id": 7596,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 7589,
+                        "id": 7592,
                         "name": "defaultApprovals",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7576,
+                        "referencedDeclaration": 7579,
                         "src": "374:16:57",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
                         }
                       },
-                      "id": 7591,
+                      "id": 7594,
                       "indexExpression": {
-                        "id": 7590,
+                        "id": 7593,
                         "name": "operator",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7584,
+                        "referencedDeclaration": 7587,
                         "src": "391:8:57",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -620,11 +620,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 7592,
+                      "id": 7595,
                       "name": "hasApproval",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 7586,
+                      "referencedDeclaration": 7589,
                       "src": "403:11:57",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -637,7 +637,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 7594,
+                  "id": 7597,
                   "nodeType": "ExpressionStatement",
                   "src": "374:40:57"
                 },
@@ -645,11 +645,11 @@
                   "eventCall": {
                     "arguments": [
                       {
-                        "id": 7596,
+                        "id": 7599,
                         "name": "operator",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7584,
+                        "referencedDeclaration": 7587,
                         "src": "445:8:57",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -657,11 +657,11 @@
                         }
                       },
                       {
-                        "id": 7597,
+                        "id": 7600,
                         "name": "hasApproval",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7586,
+                        "referencedDeclaration": 7589,
                         "src": "455:11:57",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -680,18 +680,18 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 7595,
+                      "id": 7598,
                       "name": "DefaultApproval",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 7582,
+                      "referencedDeclaration": 7585,
                       "src": "429:15:57",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_bool_$returns$__$",
                         "typeString": "function (address,bool)"
                       }
                     },
-                    "id": 7598,
+                    "id": 7601,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -706,29 +706,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 7599,
+                  "id": 7602,
                   "nodeType": "EmitStatement",
                   "src": "424:43:57"
                 }
               ]
             },
-            "id": 7601,
+            "id": 7604,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_setDefaultApproval",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 7587,
+              "id": 7590,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7584,
+                  "id": 7587,
                   "mutability": "mutable",
                   "name": "operator",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7601,
+                  "scope": 7604,
                   "src": "319:16:57",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -737,7 +737,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 7583,
+                    "id": 7586,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "319:7:57",
@@ -751,11 +751,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 7586,
+                  "id": 7589,
                   "mutability": "mutable",
                   "name": "hasApproval",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7601,
+                  "scope": 7604,
                   "src": "337:16:57",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -764,7 +764,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 7585,
+                    "id": 7588,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "337:4:57",
@@ -779,12 +779,12 @@
               "src": "318:36:57"
             },
             "returnParameters": {
-              "id": 7588,
+              "id": 7591,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "364:0:57"
             },
-            "scope": 7627,
+            "scope": 7630,
             "src": "290:184:57",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -792,10 +792,10 @@
           },
           {
             "baseFunctions": [
-              8753
+              8756
             ],
             "body": {
-              "id": 7621,
+              "id": 7624,
               "nodeType": "Block",
               "src": "585:96:57",
               "statements": [
@@ -805,31 +805,31 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 7619,
+                    "id": 7622,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
                       "baseExpression": {
-                        "id": 7611,
+                        "id": 7614,
                         "name": "defaultApprovals",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7576,
+                        "referencedDeclaration": 7579,
                         "src": "602:16:57",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
                         }
                       },
-                      "id": 7613,
+                      "id": 7616,
                       "indexExpression": {
-                        "id": 7612,
+                        "id": 7615,
                         "name": "_operator",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 7605,
+                        "referencedDeclaration": 7608,
                         "src": "619:9:57",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -852,11 +852,11 @@
                     "rightExpression": {
                       "arguments": [
                         {
-                          "id": 7616,
+                          "id": 7619,
                           "name": "_owner",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 7603,
+                          "referencedDeclaration": 7606,
                           "src": "656:6:57",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -864,11 +864,11 @@
                           }
                         },
                         {
-                          "id": 7617,
+                          "id": 7620,
                           "name": "_operator",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 7605,
+                          "referencedDeclaration": 7608,
                           "src": "664:9:57",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -888,32 +888,32 @@
                           }
                         ],
                         "expression": {
-                          "id": 7614,
+                          "id": 7617,
                           "name": "super",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 4294967271,
                           "src": "633:5:57",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_super$_ERC1155DefaultApproval_$7627",
+                            "typeIdentifier": "t_super$_ERC1155DefaultApproval_$7630",
                             "typeString": "contract super ERC1155DefaultApproval"
                           }
                         },
-                        "id": 7615,
+                        "id": 7618,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "isApprovedForAll",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 8753,
+                        "referencedDeclaration": 8756,
                         "src": "633:22:57",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_address_$_t_address_$returns$_t_bool_$",
                           "typeString": "function (address,address) view returns (bool)"
                         }
                       },
-                      "id": 7618,
+                      "id": 7621,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -934,37 +934,37 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 7610,
-                  "id": 7620,
+                  "functionReturnParameters": 7613,
+                  "id": 7623,
                   "nodeType": "Return",
                   "src": "595:79:57"
                 }
               ]
             },
             "functionSelector": "e985e9c5",
-            "id": 7622,
+            "id": 7625,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "isApprovedForAll",
             "nodeType": "FunctionDefinition",
             "overrides": {
-              "id": 7607,
+              "id": 7610,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
               "src": "556:8:57"
             },
             "parameters": {
-              "id": 7606,
+              "id": 7609,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7603,
+                  "id": 7606,
                   "mutability": "mutable",
                   "name": "_owner",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7622,
+                  "scope": 7625,
                   "src": "506:14:57",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -973,7 +973,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 7602,
+                    "id": 7605,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "506:7:57",
@@ -987,11 +987,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 7605,
+                  "id": 7608,
                   "mutability": "mutable",
                   "name": "_operator",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7622,
+                  "scope": 7625,
                   "src": "522:17:57",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1000,7 +1000,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 7604,
+                    "id": 7607,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "522:7:57",
@@ -1016,16 +1016,16 @@
               "src": "505:35:57"
             },
             "returnParameters": {
-              "id": 7610,
+              "id": 7613,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7609,
+                  "id": 7612,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 7622,
+                  "scope": 7625,
                   "src": "579:4:57",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1034,7 +1034,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 7608,
+                    "id": 7611,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "579:4:57",
@@ -1048,7 +1048,7 @@
               ],
               "src": "578:6:57"
             },
-            "scope": 7627,
+            "scope": 7630,
             "src": "480:201:57",
             "stateMutability": "view",
             "virtual": true,
@@ -1056,11 +1056,11 @@
           },
           {
             "constant": false,
-            "id": 7626,
+            "id": 7629,
             "mutability": "mutable",
             "name": "__gap",
             "nodeType": "VariableDeclaration",
-            "scope": 7627,
+            "scope": 7630,
             "src": "686:25:57",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1070,7 +1070,7 @@
             },
             "typeName": {
               "baseType": {
-                "id": 7623,
+                "id": 7626,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "686:7:57",
@@ -1079,10 +1079,10 @@
                   "typeString": "uint256"
                 }
               },
-              "id": 7625,
+              "id": 7628,
               "length": {
                 "hexValue": "3530",
-                "id": 7624,
+                "id": 7627,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -1106,7 +1106,7 @@
             "visibility": "private"
           }
         ],
-        "scope": 7628,
+        "scope": 7631,
         "src": "93:621:57"
       }
     ],
@@ -1123,13 +1123,13 @@
           1512
         ],
         "ERC1155DefaultApproval": [
-          7627
+          7630
         ],
         "ERC1155ReceiverUpgradeable": [
           853
         ],
         "ERC1155Upgradeable": [
-          9546
+          9549
         ],
         "ERC165Upgradeable": [
           365
@@ -1164,22 +1164,22 @@
             ".6"
           ]
         },
-        "id": 7569,
+        "id": 7572,
         "name": "PragmaDirective",
         "src": "33:22:57"
       },
       {
         "attributes": {
-          "SourceUnit": 9547,
+          "SourceUnit": 9550,
           "absolutePath": "project:/contracts/erc-1155/ERC1155Upgradeable.sol",
           "file": "./ERC1155Upgradeable.sol",
-          "scope": 7628,
+          "scope": 7631,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 7570,
+        "id": 7573,
         "name": "ImportDirective",
         "src": "57:34:57"
       },
@@ -1193,13 +1193,13 @@
             868,
             1031,
             1512,
-            9546
+            9549
           ],
           "contractKind": "contract",
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            7627,
-            9546,
+            7630,
+            9549,
             868,
             1031,
             365,
@@ -1208,7 +1208,7 @@
             798
           ],
           "name": "ERC1155DefaultApproval",
-          "scope": 7628
+          "scope": 7631
         },
         "children": [
           {
@@ -1217,15 +1217,15 @@
               {
                 "attributes": {
                   "name": "ERC1155Upgradeable",
-                  "referencedDeclaration": 9546,
+                  "referencedDeclaration": 9549,
                   "type": "contract ERC1155Upgradeable"
                 },
-                "id": 7571,
+                "id": 7574,
                 "name": "UserDefinedTypeName",
                 "src": "137:18:57"
               }
             ],
-            "id": 7572,
+            "id": 7575,
             "name": "InheritanceSpecifier",
             "src": "137:18:57"
           },
@@ -1234,7 +1234,7 @@
               "constant": false,
               "mutability": "mutable",
               "name": "defaultApprovals",
-              "scope": 7627,
+              "scope": 7630,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(address => bool)",
@@ -1251,7 +1251,7 @@
                       "name": "address",
                       "type": "address"
                     },
-                    "id": 7573,
+                    "id": 7576,
                     "name": "ElementaryTypeName",
                     "src": "170:7:57"
                   },
@@ -1260,17 +1260,17 @@
                       "name": "bool",
                       "type": "bool"
                     },
-                    "id": 7574,
+                    "id": 7577,
                     "name": "ElementaryTypeName",
                     "src": "181:4:57"
                   }
                 ],
-                "id": 7575,
+                "id": 7578,
                 "name": "Mapping",
                 "src": "162:24:57"
               }
             ],
-            "id": 7576,
+            "id": 7579,
             "name": "VariableDeclaration",
             "src": "162:49:57"
           },
@@ -1288,7 +1288,7 @@
                       "indexed": true,
                       "mutability": "mutable",
                       "name": "operator",
-                      "scope": 7582,
+                      "scope": 7585,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1301,12 +1301,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 7577,
+                        "id": 7580,
                         "name": "ElementaryTypeName",
                         "src": "240:7:57"
                       }
                     ],
-                    "id": 7578,
+                    "id": 7581,
                     "name": "VariableDeclaration",
                     "src": "240:24:57"
                   },
@@ -1316,7 +1316,7 @@
                       "indexed": false,
                       "mutability": "mutable",
                       "name": "hasApproval",
-                      "scope": 7582,
+                      "scope": 7585,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -1328,22 +1328,22 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 7579,
+                        "id": 7582,
                         "name": "ElementaryTypeName",
                         "src": "266:4:57"
                       }
                     ],
-                    "id": 7580,
+                    "id": 7583,
                     "name": "VariableDeclaration",
                     "src": "266:16:57"
                   }
                 ],
-                "id": 7581,
+                "id": 7584,
                 "name": "ParameterList",
                 "src": "239:44:57"
               }
             ],
-            "id": 7582,
+            "id": 7585,
             "name": "EventDefinition",
             "src": "218:66:57"
           },
@@ -1356,7 +1356,7 @@
                 null
               ],
               "name": "_setDefaultApproval",
-              "scope": 7627,
+              "scope": 7630,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "internal"
@@ -1369,7 +1369,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "operator",
-                      "scope": 7601,
+                      "scope": 7604,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1382,12 +1382,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 7583,
+                        "id": 7586,
                         "name": "ElementaryTypeName",
                         "src": "319:7:57"
                       }
                     ],
-                    "id": 7584,
+                    "id": 7587,
                     "name": "VariableDeclaration",
                     "src": "319:16:57"
                   },
@@ -1396,7 +1396,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "hasApproval",
-                      "scope": 7601,
+                      "scope": 7604,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -1408,17 +1408,17 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 7585,
+                        "id": 7588,
                         "name": "ElementaryTypeName",
                         "src": "337:4:57"
                       }
                     ],
-                    "id": 7586,
+                    "id": 7589,
                     "name": "VariableDeclaration",
                     "src": "337:16:57"
                   }
                 ],
-                "id": 7587,
+                "id": 7590,
                 "name": "ParameterList",
                 "src": "318:36:57"
               },
@@ -1429,7 +1429,7 @@
                   ]
                 },
                 "children": [],
-                "id": 7588,
+                "id": 7591,
                 "name": "ParameterList",
                 "src": "364:0:57"
               },
@@ -1461,11 +1461,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7576,
+                                  "referencedDeclaration": 7579,
                                   "type": "mapping(address => bool)",
                                   "value": "defaultApprovals"
                                 },
-                                "id": 7589,
+                                "id": 7592,
                                 "name": "Identifier",
                                 "src": "374:16:57"
                               },
@@ -1474,16 +1474,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7584,
+                                  "referencedDeclaration": 7587,
                                   "type": "address",
                                   "value": "operator"
                                 },
-                                "id": 7590,
+                                "id": 7593,
                                 "name": "Identifier",
                                 "src": "391:8:57"
                               }
                             ],
-                            "id": 7591,
+                            "id": 7594,
                             "name": "IndexAccess",
                             "src": "374:26:57"
                           },
@@ -1492,21 +1492,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 7586,
+                              "referencedDeclaration": 7589,
                               "type": "bool",
                               "value": "hasApproval"
                             },
-                            "id": 7592,
+                            "id": 7595,
                             "name": "Identifier",
                             "src": "403:11:57"
                           }
                         ],
-                        "id": 7593,
+                        "id": 7596,
                         "name": "Assignment",
                         "src": "374:40:57"
                       }
                     ],
-                    "id": 7594,
+                    "id": 7597,
                     "name": "ExpressionStatement",
                     "src": "374:40:57"
                   },
@@ -1542,11 +1542,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 7582,
+                              "referencedDeclaration": 7585,
                               "type": "function (address,bool)",
                               "value": "DefaultApproval"
                             },
-                            "id": 7595,
+                            "id": 7598,
                             "name": "Identifier",
                             "src": "429:15:57"
                           },
@@ -1555,11 +1555,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 7584,
+                              "referencedDeclaration": 7587,
                               "type": "address",
                               "value": "operator"
                             },
-                            "id": 7596,
+                            "id": 7599,
                             "name": "Identifier",
                             "src": "445:8:57"
                           },
@@ -1568,38 +1568,38 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 7586,
+                              "referencedDeclaration": 7589,
                               "type": "bool",
                               "value": "hasApproval"
                             },
-                            "id": 7597,
+                            "id": 7600,
                             "name": "Identifier",
                             "src": "455:11:57"
                           }
                         ],
-                        "id": 7598,
+                        "id": 7601,
                         "name": "FunctionCall",
                         "src": "429:38:57"
                       }
                     ],
-                    "id": 7599,
+                    "id": 7602,
                     "name": "EmitStatement",
                     "src": "424:43:57"
                   }
                 ],
-                "id": 7600,
+                "id": 7603,
                 "name": "Block",
                 "src": "364:110:57"
               }
             ],
-            "id": 7601,
+            "id": 7604,
             "name": "FunctionDefinition",
             "src": "290:184:57"
           },
           {
             "attributes": {
               "baseFunctions": [
-                8753
+                8756
               ],
               "functionSelector": "e985e9c5",
               "implemented": true,
@@ -1609,7 +1609,7 @@
                 null
               ],
               "name": "isApprovedForAll",
-              "scope": 7627,
+              "scope": 7630,
               "stateMutability": "view",
               "virtual": true,
               "visibility": "public"
@@ -1621,7 +1621,7 @@
                     null
                   ]
                 },
-                "id": 7607,
+                "id": 7610,
                 "name": "OverrideSpecifier",
                 "src": "556:8:57"
               },
@@ -1632,7 +1632,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_owner",
-                      "scope": 7622,
+                      "scope": 7625,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1645,12 +1645,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 7602,
+                        "id": 7605,
                         "name": "ElementaryTypeName",
                         "src": "506:7:57"
                       }
                     ],
-                    "id": 7603,
+                    "id": 7606,
                     "name": "VariableDeclaration",
                     "src": "506:14:57"
                   },
@@ -1659,7 +1659,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_operator",
-                      "scope": 7622,
+                      "scope": 7625,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -1672,17 +1672,17 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 7604,
+                        "id": 7607,
                         "name": "ElementaryTypeName",
                         "src": "522:7:57"
                       }
                     ],
-                    "id": 7605,
+                    "id": 7608,
                     "name": "VariableDeclaration",
                     "src": "522:17:57"
                   }
                 ],
-                "id": 7606,
+                "id": 7609,
                 "name": "ParameterList",
                 "src": "505:35:57"
               },
@@ -1693,7 +1693,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "",
-                      "scope": 7622,
+                      "scope": 7625,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -1705,17 +1705,17 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 7608,
+                        "id": 7611,
                         "name": "ElementaryTypeName",
                         "src": "579:4:57"
                       }
                     ],
-                    "id": 7609,
+                    "id": 7612,
                     "name": "VariableDeclaration",
                     "src": "579:4:57"
                   }
                 ],
-                "id": 7610,
+                "id": 7613,
                 "name": "ParameterList",
                 "src": "578:6:57"
               },
@@ -1723,7 +1723,7 @@
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 7610
+                      "functionReturnParameters": 7613
                     },
                     "children": [
                       {
@@ -1754,11 +1754,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7576,
+                                  "referencedDeclaration": 7579,
                                   "type": "mapping(address => bool)",
                                   "value": "defaultApprovals"
                                 },
-                                "id": 7611,
+                                "id": 7614,
                                 "name": "Identifier",
                                 "src": "602:16:57"
                               },
@@ -1767,16 +1767,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7605,
+                                  "referencedDeclaration": 7608,
                                   "type": "address",
                                   "value": "_operator"
                                 },
-                                "id": 7612,
+                                "id": 7615,
                                 "name": "Identifier",
                                 "src": "619:9:57"
                               }
                             ],
-                            "id": 7613,
+                            "id": 7616,
                             "name": "IndexAccess",
                             "src": "602:27:57"
                           },
@@ -1812,7 +1812,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "isApprovedForAll",
-                                  "referencedDeclaration": 8753,
+                                  "referencedDeclaration": 8756,
                                   "type": "function (address,address) view returns (bool)"
                                 },
                                 "children": [
@@ -1825,12 +1825,12 @@
                                       "type": "contract super ERC1155DefaultApproval",
                                       "value": "super"
                                     },
-                                    "id": 7614,
+                                    "id": 7617,
                                     "name": "Identifier",
                                     "src": "633:5:57"
                                   }
                                 ],
-                                "id": 7615,
+                                "id": 7618,
                                 "name": "MemberAccess",
                                 "src": "633:22:57"
                               },
@@ -1839,11 +1839,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7603,
+                                  "referencedDeclaration": 7606,
                                   "type": "address",
                                   "value": "_owner"
                                 },
-                                "id": 7616,
+                                "id": 7619,
                                 "name": "Identifier",
                                 "src": "656:6:57"
                               },
@@ -1852,36 +1852,36 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 7605,
+                                  "referencedDeclaration": 7608,
                                   "type": "address",
                                   "value": "_operator"
                                 },
-                                "id": 7617,
+                                "id": 7620,
                                 "name": "Identifier",
                                 "src": "664:9:57"
                               }
                             ],
-                            "id": 7618,
+                            "id": 7621,
                             "name": "FunctionCall",
                             "src": "633:41:57"
                           }
                         ],
-                        "id": 7619,
+                        "id": 7622,
                         "name": "BinaryOperation",
                         "src": "602:72:57"
                       }
                     ],
-                    "id": 7620,
+                    "id": 7623,
                     "name": "Return",
                     "src": "595:79:57"
                   }
                 ],
-                "id": 7621,
+                "id": 7624,
                 "name": "Block",
                 "src": "585:96:57"
               }
             ],
-            "id": 7622,
+            "id": 7625,
             "name": "FunctionDefinition",
             "src": "480:201:57"
           },
@@ -1890,7 +1890,7 @@
               "constant": false,
               "mutability": "mutable",
               "name": "__gap",
-              "scope": 7627,
+              "scope": 7630,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256[50]",
@@ -1907,7 +1907,7 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 7623,
+                    "id": 7626,
                     "name": "ElementaryTypeName",
                     "src": "686:7:57"
                   },
@@ -1922,27 +1922,27 @@
                       "type": "int_const 50",
                       "value": "50"
                     },
-                    "id": 7624,
+                    "id": 7627,
                     "name": "Literal",
                     "src": "694:2:57"
                   }
                 ],
-                "id": 7625,
+                "id": 7628,
                 "name": "ArrayTypeName",
                 "src": "686:11:57"
               }
             ],
-            "id": 7626,
+            "id": 7629,
             "name": "VariableDeclaration",
             "src": "686:25:57"
           }
         ],
-        "id": 7627,
+        "id": 7630,
         "name": "ContractDefinition",
         "src": "93:621:57"
       }
     ],
-    "id": 7628,
+    "id": 7631,
     "name": "SourceUnit",
     "src": "33:682:57"
   },
@@ -1951,8 +1951,8 @@
     "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2022-02-03T18:43:58.073Z",
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T00:40:51.529Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

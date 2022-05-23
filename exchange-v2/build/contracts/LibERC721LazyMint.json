@@ -45,7 +45,7 @@
         2132
       ],
       "LibPart": [
-        2642
+        2830
       ]
     },
     "id": 2133,
@@ -72,7 +72,7 @@
         "id": 1987,
         "nodeType": "ImportDirective",
         "scope": 2133,
-        "sourceUnit": 2643,
+        "sourceUnit": 2831,
         "src": "66:50:17",
         "symbolAliases": [],
         "unitAlias": ""
@@ -322,7 +322,7 @@
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_array$_t_struct$_Part_$2622_storage_$dyn_storage_ptr",
+                  "typeIdentifier": "t_array$_t_struct$_Part_$2810_storage_$dyn_storage_ptr",
                   "typeString": "struct LibPart.Part[]"
                 },
                 "typeName": {
@@ -330,10 +330,10 @@
                     "id": 2003,
                     "name": "LibPart.Part",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2622,
+                    "referencedDeclaration": 2810,
                     "src": "380:12:17",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Part_$2622_storage_ptr",
+                      "typeIdentifier": "t_struct$_Part_$2810_storage_ptr",
                       "typeString": "struct LibPart.Part"
                     }
                   },
@@ -341,7 +341,7 @@
                   "nodeType": "ArrayTypeName",
                   "src": "380:14:17",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Part_$2622_storage_$dyn_storage_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Part_$2810_storage_$dyn_storage_ptr",
                     "typeString": "struct LibPart.Part[]"
                   }
                 },
@@ -358,7 +358,7 @@
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_array$_t_struct$_Part_$2622_storage_$dyn_storage_ptr",
+                  "typeIdentifier": "t_array$_t_struct$_Part_$2810_storage_$dyn_storage_ptr",
                   "typeString": "struct LibPart.Part[]"
                 },
                 "typeName": {
@@ -366,10 +366,10 @@
                     "id": 2006,
                     "name": "LibPart.Part",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 2622,
+                    "referencedDeclaration": 2810,
                     "src": "413:12:17",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Part_$2622_storage_ptr",
+                      "typeIdentifier": "t_struct$_Part_$2810_storage_ptr",
                       "typeString": "struct LibPart.Part"
                     }
                   },
@@ -377,7 +377,7 @@
                   "nodeType": "ArrayTypeName",
                   "src": "413:14:17",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Part_$2622_storage_$dyn_storage_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Part_$2810_storage_$dyn_storage_ptr",
                     "typeString": "struct LibPart.Part[]"
                   }
                 },
@@ -578,7 +578,7 @@
                           "referencedDeclaration": 2008,
                           "src": "787:14:17",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Part_$2622_memory_ptr_$dyn_memory_ptr",
+                            "typeIdentifier": "t_array$_t_struct$_Part_$2810_memory_ptr_$dyn_memory_ptr",
                             "typeString": "struct LibPart.Part memory[] memory"
                           }
                         },
@@ -730,7 +730,7 @@
                                   "referencedDeclaration": 2008,
                                   "src": "915:14:17",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_array$_t_struct$_Part_$2622_memory_ptr_$dyn_memory_ptr",
+                                    "typeIdentifier": "t_array$_t_struct$_Part_$2810_memory_ptr_$dyn_memory_ptr",
                                     "typeString": "struct LibPart.Part memory[] memory"
                                   }
                                 },
@@ -754,7 +754,7 @@
                                 "nodeType": "IndexAccess",
                                 "src": "915:17:17",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_Part_$2622_memory_ptr",
+                                  "typeIdentifier": "t_struct$_Part_$2810_memory_ptr",
                                   "typeString": "struct LibPart.Part memory"
                                 }
                               }
@@ -762,7 +762,7 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_struct$_Part_$2622_memory_ptr",
+                                  "typeIdentifier": "t_struct$_Part_$2810_memory_ptr",
                                   "typeString": "struct LibPart.Part memory"
                                 }
                               ],
@@ -771,10 +771,10 @@
                                 "name": "LibPart",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2642,
+                                "referencedDeclaration": 2830,
                                 "src": "902:7:17",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_LibPart_$2642_$",
+                                  "typeIdentifier": "t_type$_t_contract$_LibPart_$2830_$",
                                   "typeString": "type(library LibPart)"
                                 }
                               },
@@ -785,10 +785,10 @@
                               "lValueRequested": false,
                               "memberName": "hash",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2641,
+                              "referencedDeclaration": 2829,
                               "src": "902:12:17",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_internal_pure$_t_struct$_Part_$2622_memory_ptr_$returns$_t_bytes32_$",
+                                "typeIdentifier": "t_function_internal_pure$_t_struct$_Part_$2810_memory_ptr_$returns$_t_bytes32_$",
                                 "typeString": "function (struct LibPart.Part memory) pure returns (bytes32)"
                               }
                             },
@@ -867,7 +867,7 @@
                         "referencedDeclaration": 2008,
                         "src": "840:14:17",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Part_$2622_memory_ptr_$dyn_memory_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Part_$2810_memory_ptr_$dyn_memory_ptr",
                           "typeString": "struct LibPart.Part memory[] memory"
                         }
                       },
@@ -1046,7 +1046,7 @@
                           "referencedDeclaration": 2005,
                           "src": "1000:13:17",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Part_$2622_memory_ptr_$dyn_memory_ptr",
+                            "typeIdentifier": "t_array$_t_struct$_Part_$2810_memory_ptr_$dyn_memory_ptr",
                             "typeString": "struct LibPart.Part memory[] memory"
                           }
                         },
@@ -1198,7 +1198,7 @@
                                   "referencedDeclaration": 2005,
                                   "src": "1125:13:17",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_array$_t_struct$_Part_$2622_memory_ptr_$dyn_memory_ptr",
+                                    "typeIdentifier": "t_array$_t_struct$_Part_$2810_memory_ptr_$dyn_memory_ptr",
                                     "typeString": "struct LibPart.Part memory[] memory"
                                   }
                                 },
@@ -1222,7 +1222,7 @@
                                 "nodeType": "IndexAccess",
                                 "src": "1125:16:17",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_Part_$2622_memory_ptr",
+                                  "typeIdentifier": "t_struct$_Part_$2810_memory_ptr",
                                   "typeString": "struct LibPart.Part memory"
                                 }
                               }
@@ -1230,7 +1230,7 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_struct$_Part_$2622_memory_ptr",
+                                  "typeIdentifier": "t_struct$_Part_$2810_memory_ptr",
                                   "typeString": "struct LibPart.Part memory"
                                 }
                               ],
@@ -1239,10 +1239,10 @@
                                 "name": "LibPart",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2642,
+                                "referencedDeclaration": 2830,
                                 "src": "1112:7:17",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_LibPart_$2642_$",
+                                  "typeIdentifier": "t_type$_t_contract$_LibPart_$2830_$",
                                   "typeString": "type(library LibPart)"
                                 }
                               },
@@ -1253,10 +1253,10 @@
                               "lValueRequested": false,
                               "memberName": "hash",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2641,
+                              "referencedDeclaration": 2829,
                               "src": "1112:12:17",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_internal_pure$_t_struct$_Part_$2622_memory_ptr_$returns$_t_bytes32_$",
+                                "typeIdentifier": "t_function_internal_pure$_t_struct$_Part_$2810_memory_ptr_$returns$_t_bytes32_$",
                                 "typeString": "function (struct LibPart.Part memory) pure returns (bytes32)"
                               }
                             },
@@ -1335,7 +1335,7 @@
                         "referencedDeclaration": 2005,
                         "src": "1052:13:17",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Part_$2622_memory_ptr_$dyn_memory_ptr",
+                          "typeIdentifier": "t_array$_t_struct$_Part_$2810_memory_ptr_$dyn_memory_ptr",
                           "typeString": "struct LibPart.Part memory[] memory"
                         }
                       },
@@ -1992,7 +1992,7 @@
           2132
         ],
         "LibPart": [
-          2642
+          2830
         ]
       },
       "license": "MIT"
@@ -2016,7 +2016,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 2643,
+          "SourceUnit": 2831,
           "absolutePath": "@rarible/royalties/contracts/LibPart.sol",
           "file": "@rarible/royalties/contracts/LibPart.sol",
           "scope": 2133,
@@ -2297,7 +2297,7 @@
                       {
                         "attributes": {
                           "name": "LibPart.Part",
-                          "referencedDeclaration": 2622,
+                          "referencedDeclaration": 2810,
                           "type": "struct LibPart.Part"
                         },
                         "id": 2003,
@@ -2334,7 +2334,7 @@
                       {
                         "attributes": {
                           "name": "LibPart.Part",
-                          "referencedDeclaration": 2622,
+                          "referencedDeclaration": 2810,
                           "type": "struct LibPart.Part"
                         },
                         "id": 2006,
@@ -2948,7 +2948,7 @@
                                         "attributes": {
                                           "argumentTypes": [
                                             {
-                                              "typeIdentifier": "t_struct$_Part_$2622_memory_ptr",
+                                              "typeIdentifier": "t_struct$_Part_$2810_memory_ptr",
                                               "typeString": "struct LibPart.Part memory"
                                             }
                                           ],
@@ -2957,7 +2957,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "hash",
-                                          "referencedDeclaration": 2641,
+                                          "referencedDeclaration": 2829,
                                           "type": "function (struct LibPart.Part memory) pure returns (bytes32)"
                                         },
                                         "children": [
@@ -2966,7 +2966,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 2642,
+                                              "referencedDeclaration": 2830,
                                               "type": "type(library LibPart)",
                                               "value": "LibPart"
                                             },
@@ -3451,7 +3451,7 @@
                                         "attributes": {
                                           "argumentTypes": [
                                             {
-                                              "typeIdentifier": "t_struct$_Part_$2622_memory_ptr",
+                                              "typeIdentifier": "t_struct$_Part_$2810_memory_ptr",
                                               "typeString": "struct LibPart.Part memory"
                                             }
                                           ],
@@ -3460,7 +3460,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "hash",
-                                          "referencedDeclaration": 2641,
+                                          "referencedDeclaration": 2829,
                                           "type": "function (struct LibPart.Part memory) pure returns (bytes32)"
                                         },
                                         "children": [
@@ -3469,7 +3469,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 2642,
+                                              "referencedDeclaration": 2830,
                                               "type": "type(library LibPart)",
                                               "value": "LibPart"
                                             },
@@ -4077,8 +4077,8 @@
     "version": "0.7.6+commit.7338295f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-08T12:47:29.794Z",
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T01:33:13.429Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
